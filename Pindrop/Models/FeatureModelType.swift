@@ -113,9 +113,12 @@ enum FeatureModelType: String, CaseIterable, Identifiable, Codable {
     var repoFolderName: String {
         switch self {
         case .vad:
-            return "silero-vad-coreml"
+            // FluidAudio drops the "-coreml" suffix from the repo name for its cache
+            // folder. Use its value so readiness checks the folder it writes to.
+            return Repo.vad.folderName
         case .diarization:
-            return "speaker-diarization-coreml"
+            // Same suffix rule as `.vad`; the offline diarizer reads and writes here.
+            return Repo.diarizer.folderName
         case .streaming:
             return StreamingChunkProfile.standard.repoFolderName
         }
