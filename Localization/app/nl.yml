@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop heeft een paar machtigingen nodig om te werken.
     Uw privacy wordt altijd gerespecteerd.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop heeft toegankelijkheidstoestemming nodig om tekst bij uw cursor in te voegen.                          Om toestemming te verlenen: 1. Klik hieronder op \"Systeeminstellingen openen\" 2. Klik op de knop + 3. Navigeer naar de app die wordt weergegeven in Finder 4. Start Pindrop opnieuw op nadat u toestemming hebt verleend Zonder deze toestemming wordt tekst alleen naar uw klembord gekopieerd.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop heeft toegankelijkheidstoestemming nodig om tekst bij uw cursor in te voegen.\n\nOm toestemming te verlenen:\n1. Klik hieronder op \"Systeeminstellingen openen\"\n2. Klik op de knop +\n3. Navigeer naar de app die wordt weergegeven in Finder\n4. Start Pindrop opnieuw op nadat u toestemming hebt verleend Zonder deze toestemming wordt tekst alleen naar uw klembord gekopieerd."
   needs_microphone_access_to_record_and_tr: "Pindrop heeft microfoontoegang nodig om je stem op te nemen en te transcriberen.nnVerleen toestemming in Systeeminstellingen."
   on_github: "Pindrop op GitHub"
   orb: "Pindrop-orb"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Dank aan %@ voor de bijdrage (PR #61)."
 the:
   floating_indicator_is_hidden: "De zwevende indicator is verborgen."
-  model_failed_to_load_within_60_seconds_this: "\"\" Het model kon niet binnen 60 seconden worden geladen. Dit betekent meestal dat de modelbestanden beschadigd of incompatibel zijn.                          Om dit op te lossen: 1. Open Instellingen → Modellen 2. Verwijder het problematische model 3. Download het model opnieuw. Als het probleem zich blijft voordoen, probeer dan een kleiner model (Tiny of Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Het model kon niet binnen 60 seconden worden geladen. Dit betekent meestal dat de modelbestanden beschadigd of incompatibel zijn.\n\nOm dit op te lossen:\n1. Open Instellingen → Modellen\n2. Verwijder het problematische model\n3. Download het model opnieuw. Als het probleem zich blijft voordoen, probeer dan een kleiner model (Tiny of Base)."
   new_nemotron_streaming_engine_shows_words_as: "De nieuwe Nemotron-streamingengine toont woorden terwijl je ze uitspreekt en warmt op bij het starten, zodat je eerste dictaat zonder vertraging begint."
   selected_chunk_variant_isn_t_downloaded_yet: "De geselecteerde chunk-variant is nog niet gedownload. Omschakelen start een download."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Kan geen verbinding maken met de AI-verbeteringsservice.                                  Controleer het volgende: 1. Uw internetverbinding 2. De API-eindpunt-URL is correct 3. De service ondervindt geen storing De transcriptie is zonder verbeteringen opgeslagen.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Kan geen verbinding maken met de AI-verbeteringsservice.\n\nControleer het volgende:\n1. Uw internetverbinding\n2. De API-eindpunt-URL is correct\n3. De service ondervindt geen storing De transcriptie is zonder verbeteringen opgeslagen."
   to_finish_transcription: "Kan transcriptie niet voltooien"
   to_load_history: "Kan geschiedenis niet laden: %@"
   to_load_models_try_refresh: "Kan modellen niet laden. Probeer te vernieuwen."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "U kunt deze op elk gewenst moment wijzigen via de menubalk → Instellingen → Sneltoetsen"
   re_all_set: "Je bent helemaal klaar!"
   re_all_set_058a8130: "Je bent helemaal klaar!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" U heeft uw API-limiet of quotum overschreden.                                  Om dit op te lossen: 1. Wacht een paar minuten en probeer het opnieuw 2. Controleer de gebruikslimieten van uw API-provider 3. Overweeg een upgrade van uw API-abonnement De transcriptie is zonder verbeteringen opgeslagen.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "U heeft uw API-limiet of quotum overschreden.\n\nOm dit op te lossen:\n1. Wacht een paar minuten en probeer het opnieuw\n2. Controleer de gebruikslimieten van uw API-provider\n3. Overweeg een upgrade van uw API-abonnement De transcriptie is zonder verbeteringen opgeslagen."
   re_in_control: "Jij hebt de controle"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Uw API-sleutel lijkt ongeldig of verlopen te zijn.                                  Om dit op te lossen: 1. Open Instellingen → AI-verbetering 2. Controleer of uw API-sleutel correct is 3. Controleer of uw API-eindpunt correct is De transcriptie is zonder verbeteringen opgeslagen.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Uw API-sleutel lijkt ongeldig of verlopen te zijn.\n\nOm dit op te lossen:\n1. Open Instellingen → AI-verbetering\n2. Controleer of uw API-sleutel correct is\n3. Controleer of uw API-eindpunt correct is De transcriptie is zonder verbeteringen opgeslagen."
   floating_indicator_is_now_a_living_audio_re: "Je zwevende indicator is nu een levende, audio-reactieve orb. Hij ademt wanneer hij inactief is, zwelt op wanneer je spreekt en streamt je woorden live terwijl je dicteert."
   hotkeys_are_ready_to_use_nyou_can_customize: "Uw sneltoetsen zijn klaar voor gebruik.nU kunt ze later aanpassen in Instellingen."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Inkeping"
 whatsnew:
-  footer: "Ook: promptvoorinstellingen zijn terug in de menubalk, de opnamebol heeft een nieuwe golfvorm en bestaande bibliotheken openen weer betrouwbaar."
-  formatting_body: "Corrigeer opgeslagen transcripties in Library en houd een duidelijke Edited-markering."
-  formatting_title: "Bewerkbare transcripties"
-  indicators_body: "Bekijk de timing per fase en het AI-tokengebruik voor elk dictaat, plus gemiddelden in Stats."
-  indicators_title: "Pipeline-inzichten"
-  languages_body: "Telemetrie blijft uit tot je meedoet, en trainingsbijdragen blijven op je Mac voor beoordeling, export of verwijdering."
-  languages_title: "Diagnostiek met privacy eerst"
-  sensevoice_body: "Streaming-callbacks, afsluiten en live UI-updates blijven nu geordend en efficiënt."
-  sensevoice_title: "Betrouwbaarder dicteren"
-  summary: "Privédiagnostiek, bewerkbare geschiedenis, diepere prestatie-inzichten en betrouwbaarder dicteren."
-  version_line: "Pindrop 1.22.0 · juli 2026"
+  footer: "Download Sayso op justsayso.app."
+  formatting_body: "Je kunt deze versie blijven gebruiken. Je transcripties, notities en instellingen blijven op je Mac."
+  formatting_title: "Pindrop blijft werken"
+  get_sayso: "Sayso downloaden"
+  indicators_body: "De Pindrop-repository op GitHub is gearchiveerd en alleen-lezen."
+  indicators_title: "De broncode blijft beschikbaar"
+  languages_body: "Dit is de laatste versie. Pindrop krijgt hierna geen nieuwe functies, fixes of ondersteuning meer."
+  languages_title: "Geen updates meer"
+  sensevoice_body: "Sayso is de nieuwe dicteer-app van de ontwikkelaar van Pindrop. De app werkt op macOS, Windows en Linux. Sayso kan je dictaten, woordenboek en promptpresets uit Pindrop importeren."
+  sensevoice_title: "Sayso vervangt Pindrop"
+  summary: "Pindrop 1.23.0 is de laatste versie. Sayso is de vervanger."
+  title: "Pindrop is stopgezet"
+  version_line: "Pindrop 1.23.0 · Laatste versie"
 privacy:
   _self: "Privacy"
 share:

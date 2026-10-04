@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop cần một số quyền để hoạt động.
     Sự riêng tư của bạn luôn được tôn trọng.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop cần có quyền Trợ năng để chèn văn bản vào con trỏ của bạn.                          Để cấp quyền: 1. Nhấp vào \"Mở cài đặt hệ thống\" bên dưới 2. Nhấp vào nút + 3. Điều hướng đến ứng dụng được hiển thị trong Finder 4. Khởi động lại Pindrop sau khi cấp quyền Nếu không có quyền này, văn bản sẽ chỉ được sao chép vào khay nhớ tạm của bạn.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop cần có quyền Trợ năng để chèn văn bản vào con trỏ của bạn.\n\nĐể cấp quyền:\n1. Nhấp vào \"Mở cài đặt hệ thống\" bên dưới\n2. Nhấp vào nút +\n3. Điều hướng đến ứng dụng được hiển thị trong Finder\n4. Khởi động lại Pindrop sau khi cấp quyền Nếu không có quyền này, văn bản sẽ chỉ được sao chép vào khay nhớ tạm của bạn."
   needs_microphone_access_to_record_and_tr: "Pindrop cần quyền truy cập micrô để ghi âm và chép lại giọng nói của bạn.nnVui lòng cấp quyền trong Cài đặt hệ thống."
   on_github: "Ghim trên GitHub"
   orb: "Quả cầu Pindrop"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Cảm ơn %@ vì đóng góp (PR #61)."
 the:
   floating_indicator_is_hidden: "Chỉ báo nổi đang bị ẩn."
-  model_failed_to_load_within_60_seconds_this: "\"\" Mô hình không tải được trong vòng 60 giây. Điều này thường có nghĩa là các tệp mô hình bị hỏng hoặc không tương thích.                          Để khắc phục điều này: 1. Mở Cài đặt → Kiểu máy 2. Xóa mô hình có vấn đề 3. Tải lại mô hình xuống Nếu sự cố vẫn tiếp diễn, hãy thử một mô hình nhỏ hơn (Tiny hoặc Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Mô hình không tải được trong vòng 60 giây. Điều này thường có nghĩa là các tệp mô hình bị hỏng hoặc không tương thích.\n\nĐể khắc phục điều này:\n1. Mở Cài đặt → Kiểu máy\n2. Xóa mô hình có vấn đề\n3. Tải lại mô hình xuống Nếu sự cố vẫn tiếp diễn, hãy thử một mô hình nhỏ hơn (Tiny hoặc Base)."
   new_nemotron_streaming_engine_shows_words_as: "Công cụ streaming Nemotron mới hiển thị từ khi bạn nói và được làm nóng sẵn khi khởi chạy để lần đọc chính tả đầu tiên bắt đầu không chậm trễ."
   selected_chunk_variant_isn_t_downloaded_yet: "Biến thể đoạn đã chọn chưa được tải xuống. Chuyển đổi sẽ bắt đầu tải xuống."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Không thể kết nối với dịch vụ nâng cao AI.                                  Vui lòng kiểm tra: 1. Kết nối internet của bạn 2. URL điểm cuối API chính xác 3. Dịch vụ không bị ngừng hoạt động Bản phiên âm đã được lưu mà không cần cải tiến.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Không thể kết nối với dịch vụ nâng cao AI.\n\nVui lòng kiểm tra:\n1. Kết nối internet của bạn\n2. URL điểm cuối API chính xác\n3. Dịch vụ không bị ngừng hoạt động Bản phiên âm đã được lưu mà không cần cải tiến."
   to_finish_transcription: "Không thể hoàn tất phiên âm"
   to_load_history: "Không thể tải lịch sử: %@"
   to_load_models_try_refresh: "Không thể tải mô hình. Hãy thử làm mới."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Bạn có thể thay đổi những điều này bất cứ lúc nào từ thanh menu → Cài đặt → Phím nóng"
   re_all_set: "Bạn đã hoàn tất!"
   re_all_set_058a8130: "Bạn đã hoàn tất!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Bạn đã vượt quá giới hạn hoặc hạn ngạch tốc độ API của mình.                                  Để khắc phục điều này: 1. Đợi vài phút và thử lại 2. Kiểm tra giới hạn sử dụng của nhà cung cấp API của bạn 3. Cân nhắc nâng cấp gói API của bạn Bản ghi đã được lưu mà không cần cải tiến.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Bạn đã vượt quá giới hạn hoặc hạn ngạch tốc độ API của mình.\n\nĐể khắc phục điều này:\n1. Đợi vài phút và thử lại\n2. Kiểm tra giới hạn sử dụng của nhà cung cấp API của bạn\n3. Cân nhắc nâng cấp gói API của bạn Bản ghi đã được lưu mà không cần cải tiến."
   re_in_control: "Bạn nắm quyền kiểm soát"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Khóa API của bạn có vẻ không hợp lệ hoặc đã hết hạn.                                  Để khắc phục điều này: 1. Mở Cài đặt → Cải tiến AI 2. Xác minh khóa API của bạn là chính xác 3. Kiểm tra xem điểm cuối API của bạn có đúng không. Bản chép lời đã được lưu mà không cần cải tiến.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Khóa API của bạn có vẻ không hợp lệ hoặc đã hết hạn.\n\nĐể khắc phục điều này:\n1. Mở Cài đặt → Cải tiến AI\n2. Xác minh khóa API của bạn là chính xác\n3. Kiểm tra xem điểm cuối API của bạn có đúng không. Bản chép lời đã được lưu mà không cần cải tiến."
   floating_indicator_is_now_a_living_audio_re: "Chỉ báo nổi của bạn giờ là một orb sống động, phản ứng với âm thanh. Nó thở khi rảnh, phồng lên khi bạn nói và truyền trực tiếp lời của bạn khi bạn đọc chính tả."
   hotkeys_are_ready_to_use_nyou_can_customize: "Phím nóng của bạn đã sẵn sàng để sử dụng.nBạn có thể tùy chỉnh chúng sau trong Cài đặt."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Notch"
 whatsnew:
-  footer: "Ngoài ra: các preset lời nhắc đã trở lại thanh menu, quả cầu ghi âm có dạng sóng mới, và các thư viện hiện có lại mở một cách đáng tin cậy."
-  formatting_body: "Sửa bản chép lời đã lưu trong Library và giữ thẻ Edited rõ ràng."
-  formatting_title: "Bản chép lời có thể chỉnh sửa"
-  indicators_body: "Xem thời gian theo từng giai đoạn và mức dùng token AI cho mỗi lần đọc chính tả, cùng số trung bình trong Stats."
-  indicators_title: "Thông tin pipeline"
-  languages_body: "Telemetry vẫn tắt cho đến khi bạn chọn tham gia, và dữ liệu đóng góp huấn luyện vẫn ở trên Mac của bạn để xem, xuất hoặc xóa."
-  languages_title: "Chẩn đoán ưu tiên quyền riêng tư"
-  sensevoice_body: "Callback streaming, tắt máy và cập nhật UI trực tiếp nay vẫn giữ thứ tự và hiệu quả."
-  sensevoice_title: "Đọc chính tả đáng tin cậy hơn"
-  summary: "Chẩn đoán riêng tư, lịch sử có thể chỉnh sửa, thông tin hiệu năng sâu hơn và đọc chính tả đáng tin cậy hơn."
-  version_line: "Pindrop 1.22.0 · tháng 7 năm 2026"
+  footer: "Tải Sayso tại justsayso.app."
+  formatting_body: "Bạn có thể tiếp tục dùng phiên bản này. Bản chép lời, ghi chú và cài đặt vẫn nằm trên máy Mac của bạn."
+  formatting_title: "Pindrop vẫn hoạt động"
+  get_sayso: "Tải Sayso"
+  indicators_body: "Kho mã Pindrop trên GitHub đã được lưu trữ và chỉ đọc."
+  indicators_title: "Mã nguồn vẫn có sẵn"
+  languages_body: "Đây là bản phát hành cuối. Pindrop sẽ không có tính năng mới, bản sửa lỗi hay hỗ trợ nữa."
+  languages_title: "Không còn bản cập nhật"
+  sensevoice_body: "Sayso là ứng dụng đọc chính tả mới từ nhà phát triển Pindrop. Ứng dụng chạy trên macOS, Windows và Linux. Sayso có thể nhập các bản đọc chính tả, từ điển và mẫu prompt của bạn từ Pindrop."
+  sensevoice_title: "Sayso thay thế Pindrop"
+  summary: "Pindrop 1.23.0 là bản phát hành cuối. Sayso là ứng dụng thay thế."
+  title: "Pindrop đã ngừng phát triển"
+  version_line: "Pindrop 1.23.0 · Bản phát hành cuối"
 privacy:
   _self: "Quyền riêng tư"
 share:

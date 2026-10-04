@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop necessita di alcune autorizzazioni per funzionare.
     La tua privacy è sempre rispettata.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop necessita dell'autorizzazione di accessibilità per inserire testo in corrispondenza del cursore.                          Per concedere l'autorizzazione: 1. Fai clic su \"Apri Impostazioni di sistema\" di seguito 2. Fai clic sul pulsante + 3. Passa all'app mostrata nel Finder 4. Riavvia Pindrop dopo aver concesso l'autorizzazione Senza questa autorizzazione, il testo verrà solo copiato negli appunti.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop necessita dell'autorizzazione di accessibilità per inserire testo in corrispondenza del cursore.\n\nPer concedere l'autorizzazione:\n1. Fai clic su \"Apri Impostazioni di sistema\" di seguito\n2. Fai clic sul pulsante +\n3. Passa all'app mostrata nel Finder\n4. Riavvia Pindrop dopo aver concesso l'autorizzazione Senza questa autorizzazione, il testo verrà solo copiato negli appunti."
   needs_microphone_access_to_record_and_tr: "Pindrop necessita dell'accesso al microfono per registrare e trascrivere la tua voce.nnConcedi l'autorizzazione nelle Impostazioni di sistema."
   on_github: "Pindrop su GitHub"
   orb: "Sfera Pindrop"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Grazie a %@ per il contributo (PR #61)."
 the:
   floating_indicator_is_hidden: "L’indicatore fluttuante è nascosto."
-  model_failed_to_load_within_60_seconds_this: "\"\" Impossibile caricare il modello entro 60 secondi. Questo di solito significa che i file del modello sono danneggiati o incompatibili.                          Per risolvere questo problema: 1. Apri Impostazioni → Modelli 2. Elimina il modello problematico 3. Scarica nuovamente il modello Se il problema persiste, prova un modello più piccolo (Tiny o Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Impossibile caricare il modello entro 60 secondi. Questo di solito significa che i file del modello sono danneggiati o incompatibili.\n\nPer risolvere questo problema:\n1. Apri Impostazioni → Modelli\n2. Elimina il modello problematico\n3. Scarica nuovamente il modello Se il problema persiste, prova un modello più piccolo (Tiny o Base)."
   new_nemotron_streaming_engine_shows_words_as: "Il nuovo motore di streaming Nemotron mostra le parole mentre le dici e si preriscalda all’avvio, così la tua prima dettatura parte senza ritardi."
   selected_chunk_variant_isn_t_downloaded_yet: "La variante selezionata non è ancora scaricata. Cambiare avvierà un download."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Impossibile connettersi al servizio di miglioramento dell'intelligenza artificiale.                                  Controlla: 1. La tua connessione Internet 2. L'URL dell'endpoint API è corretto 3. Il servizio non presenta un'interruzione La trascrizione è stata salvata senza miglioramenti.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Impossibile connettersi al servizio di miglioramento dell'intelligenza artificiale.\n\nControlla:\n1. La tua connessione Internet\n2. L'URL dell'endpoint API è corretto\n3. Il servizio non presenta un'interruzione La trascrizione è stata salvata senza miglioramenti."
   to_finish_transcription: "Impossibile completare la trascrizione"
   to_load_history: "Impossibile caricare la cronologia: %@"
   to_load_models_try_refresh: "Impossibile caricare i modelli. Prova ad aggiornare."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Puoi modificarli in qualsiasi momento dalla barra dei menu → Impostazioni → Tasti di scelta rapida"
   re_all_set: "Sei tutto pronto!"
   re_all_set_058a8130: "È tutto pronto!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Hai superato il limite di velocità o la quota API.                                  Per risolvere questo problema: 1. Attendi qualche minuto e riprova 2. Controlla i limiti di utilizzo del tuo provider API 3. Valuta la possibilità di aggiornare il tuo piano API La trascrizione è stata salvata senza miglioramenti.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Hai superato il limite di velocità o la quota API.\n\nPer risolvere questo problema:\n1. Attendi qualche minuto e riprova\n2. Controlla i limiti di utilizzo del tuo provider API\n3. Valuta la possibilità di aggiornare il tuo piano API La trascrizione è stata salvata senza miglioramenti."
   re_in_control: "Hai il controllo"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" La tua chiave API sembra non essere valida o scaduta.                                  Per risolvere questo problema: 1. Apri Impostazioni → Miglioramento AI 2. Verifica che la chiave API sia corretta 3. Verifica che l'endpoint API sia corretto La trascrizione è stata salvata senza miglioramenti.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "La tua chiave API sembra non essere valida o scaduta.\n\nPer risolvere questo problema:\n1. Apri Impostazioni → Miglioramento AI\n2. Verifica che la chiave API sia corretta\n3. Verifica che l'endpoint API sia corretto La trascrizione è stata salvata senza miglioramenti."
   floating_indicator_is_now_a_living_audio_re: "Il tuo indicatore flottante ora è un orb vivo e reattivo all’audio. Respira quando è inattivo, si espande quando parli e mostra le tue parole in tempo reale mentre detti."
   hotkeys_are_ready_to_use_nyou_can_customize: "I tuoi tasti di scelta rapida sono pronti per l'uso. Puoi personalizzarli in seguito in Impostazioni."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Tacca"
 whatsnew:
-  footer: "Inoltre: i preset dei prompt sono di nuovo nella barra dei menu, l'orbe di registrazione ha una nuova forma d'onda e le librerie esistenti si aprono di nuovo in modo affidabile."
-  formatting_body: "Correggi le trascrizioni salvate in Library e mantieni un chiaro contrassegno Edited."
-  formatting_title: "Trascrizioni modificabili"
-  indicators_body: "Vedi i tempi per fase e l'uso di token AI per ogni dettatura, più le medie in Stats."
-  indicators_title: "Approfondimenti sulla pipeline"
-  languages_body: "La telemetria resta disattivata finché non acconsenti, e i contributi di addestramento restano sul tuo Mac per revisione, esportazione o eliminazione."
-  languages_title: "Diagnostica con privacy al primo posto"
-  sensevoice_body: "I callback in streaming, lo spegnimento e gli aggiornamenti UI in tempo reale restano ora ordinati ed efficienti."
-  sensevoice_title: "Dettatura più affidabile"
-  summary: "Diagnostica privata, cronologia modificabile, approfondimenti sulle prestazioni più dettagliati e dettatura più affidabile."
-  version_line: "Pindrop 1.22.0 · luglio 2026"
+  footer: "Scarica Sayso su justsayso.app."
+  formatting_body: "Puoi continuare a usare questa versione. Trascrizioni, note e impostazioni restano sul tuo Mac."
+  formatting_title: "Pindrop continua a funzionare"
+  get_sayso: "Scarica Sayso"
+  indicators_body: "Il repository di Pindrop su GitHub è archiviato e di sola lettura."
+  indicators_title: "Il codice sorgente resta disponibile"
+  languages_body: "Questa è la versione finale. Pindrop non riceverà più nuove funzioni, correzioni o assistenza."
+  languages_title: "Nessun altro aggiornamento"
+  sensevoice_body: "Sayso è la nuova app di dettatura dello sviluppatore di Pindrop. Funziona su macOS, Windows e Linux. Sayso può importare da Pindrop dettature, dizionario e preset dei prompt."
+  sensevoice_title: "Sayso sostituisce Pindrop"
+  summary: "Pindrop 1.23.0 è la versione finale. Sayso lo sostituisce."
+  title: "Pindrop è stato dismesso"
+  version_line: "Pindrop 1.23.0 · Versione finale"
 privacy:
   _self: "Privacy"
 share:

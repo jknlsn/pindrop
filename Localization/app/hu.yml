@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     A Pindrop működéséhez néhány engedélyre van szüksége.
     Az Ön személyes adatait mindig tiszteletben tartják.
-  needs_accessibility_permission_to_insert: "\"\" A Pindrop kisegítő lehetőségeket igényel, hogy szöveget illesszen be a kurzorba.                          Engedély megadása: 1. Kattintson az alábbi \"Rendszerbeállítások megnyitása\" lehetőségre. 2. Kattintson a + gombra 3. Navigáljon a Finderben látható alkalmazáshoz 4. Indítsa újra a Pindrop alkalmazást az engedély megadása után Ezen engedély nélkül a szöveg csak a vágólapra kerül.             \"\""
+  needs_accessibility_permission_to_insert: "A Pindrop kisegítő lehetőségeket igényel, hogy szöveget illesszen be a kurzorba.\n\nEngedély megadása:\n1. Kattintson az alábbi \"Rendszerbeállítások megnyitása\" lehetőségre.\n2. Kattintson a + gombra\n3. Navigáljon a Finderben látható alkalmazáshoz\n4. Indítsa újra a Pindrop alkalmazást az engedély megadása után Ezen engedély nélkül a szöveg csak a vágólapra kerül."
   needs_microphone_access_to_record_and_tr: "A Pindrop-nak mikrofon-hozzáférésre van szüksége a hang rögzítéséhez és átírásához.nnKérjük, adjon engedélyt a rendszerbeállításokban."
   on_github: "Pindrop a GitHubon"
   orb: "Pindrop-gömb"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Köszönet %@ számára a hozzájárulásért (PR #61)."
 the:
   floating_indicator_is_hidden: "A lebegő jelző el van rejtve."
-  model_failed_to_load_within_60_seconds_this: "\"\" A modell betöltése nem sikerült 60 másodpercen belül. Ez általában azt jelenti, hogy a modellfájlok sérültek vagy nem kompatibilisek.                          A probléma megoldása: 1. Nyissa meg a Beállítások → Modellek menüpontot. 2. Törölje a problémás modellt 3. Töltse le újra a modellt. Ha a probléma továbbra is fennáll, próbáljon ki egy kisebb modellt (Tiny vagy Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "A modell betöltése nem sikerült 60 másodpercen belül. Ez általában azt jelenti, hogy a modellfájlok sérültek vagy nem kompatibilisek.\n\nA probléma megoldása:\n1. Nyissa meg a Beállítások → Modellek menüpontot.\n2. Törölje a problémás modellt\n3. Töltse le újra a modellt. Ha a probléma továbbra is fennáll, próbáljon ki egy kisebb modellt (Tiny vagy Base)."
   new_nemotron_streaming_engine_shows_words_as: "Az új Nemotron streaming motor kimondás közben jeleníti meg a szavakat, és indításkor előmelegszik, hogy az első diktálás késlekedés nélkül induljon."
   selected_chunk_variant_isn_t_downloaded_yet: "A kiválasztott darabváltozat még nincs letöltve. A váltás elindítja a letöltést."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Nem lehet csatlakozni az AI-bővítő szolgáltatáshoz.                                  Kérjük, ellenőrizze a következőket: 1. Internetkapcsolata 2. Az API végpont URL-címe helyes 3. A szolgáltatás nem tapasztal kimaradást Az átírást javítás nélkül mentette.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Nem lehet csatlakozni az AI-bővítő szolgáltatáshoz.\n\nKérjük, ellenőrizze a következőket:\n1. Internetkapcsolata\n2. Az API végpont URL-címe helyes\n3. A szolgáltatás nem tapasztal kimaradást Az átírást javítás nélkül mentette."
   to_finish_transcription: "Nem sikerült befejezni az átírást"
   to_load_history: "Nem sikerült betölteni az előzményeket: %@"
   to_load_models_try_refresh: "Nem sikerült betölteni a modelleket. Próbálja meg frissíteni."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Ezeket bármikor módosíthatja a menüsorban → Beállítások → Gyorsbillentyűk"
   re_all_set: "Minden készen áll!"
   re_all_set_058a8130: "Minden készen áll!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Túllépte az API-rátakorlátot vagy -kvótát.                                  A probléma megoldása: 1. Várjon néhány percet, majd próbálja újra 2. Ellenőrizze API-szolgáltatója használati korlátait. 3. Fontolja meg API-tervének frissítését. Az átírást javítás nélkül mentettük.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Túllépte az API-rátakorlátot vagy -kvótát.\n\nA probléma megoldása:\n1. Várjon néhány percet, majd próbálja újra\n2. Ellenőrizze API-szolgáltatója használati korlátait.\n3. Fontolja meg API-tervének frissítését. Az átírást javítás nélkül mentettük."
   re_in_control: "Tiéd az irányítás"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Úgy tűnik, hogy az API-kulcs érvénytelen vagy lejárt.                                  A hiba javítása: 1. Nyissa meg a Beállítások → AI-bővítés menüpontot. 2. Ellenőrizze, hogy az API-kulcs helyes-e.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Úgy tűnik, hogy az API-kulcs érvénytelen vagy lejárt.\n\nA hiba javítása:\n1. Nyissa meg a Beállítások → AI-bővítés menüpontot.\n2. Ellenőrizze, hogy az API-kulcs helyes-e."
   floating_indicator_is_now_a_living_audio_re: "A lebegő jelző mostantól élő, hangra reagáló orb. Tétlenül lélegzik, beszéd közben megduzzad, és diktálás közben élőben közvetíti a szavaidat."
   hotkeys_are_ready_to_use_nyou_can_customize: "Gyorsbillentyűi használatra készek.nKésőbb személyre szabhatja őket a Beállításokban."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Bemetszés"
 whatsnew:
-  footer: "Emellett: a prompt-előbeállítások visszatértek a menüsorba, a felvételi gömb új hullámformát kapott, és a meglévő könyvtárak újra megbízhatóan megnyílnak."
-  formatting_body: "Javítsa a mentett átiratokat a Libraryban, és tartson meg egy egyértelmű Edited jelölést."
-  formatting_title: "Szerkeszthető átiratok"
-  indicators_body: "Lássa a szakaszonkénti időzítést és az AI-tokenhasználatot minden diktálásnál, valamint az átlagokat a Statsban."
-  indicators_title: "Pipeline-betekintések"
-  languages_body: "A telemetria kikapcsolva marad, amíg be nem kapcsolja, a tanítási hozzájárulások pedig a Macjén maradnak áttekintéshez, exportáláshoz vagy törléshez."
-  languages_title: "Adatvédelem-első diagnosztika"
-  sensevoice_body: "A streamelési visszahívások, a leállítás és az élő UI-frissítések mostantól rendezettek és hatékonyak maradnak."
-  sensevoice_title: "Megbízhatóbb diktálás"
-  summary: "Privát diagnosztika, szerkeszthető előzmények, mélyebb teljesítmény-betekintések és megbízhatóbb diktálás."
-  version_line: "Pindrop 1.22.0 · 2026. július"
+  footer: "A Sayso letölthető a justsayso.app oldalról."
+  formatting_body: "Ezt a verziót tovább használhatja. Az átiratok, jegyzetek és beállítások a Macen maradnak."
+  formatting_title: "A Pindrop továbbra is működik"
+  get_sayso: "Sayso letöltése"
+  indicators_body: "A Pindrop GitHub-tárolója archivált és csak olvasható."
+  indicators_title: "A forráskód elérhető marad"
+  languages_body: "Ez az utolsó kiadás. A Pindrop ezután nem kap új funkciókat, javításokat és támogatást."
+  languages_title: "Nincs több frissítés"
+  sensevoice_body: "A Sayso a Pindrop fejlesztőjének új diktálóalkalmazása. macOS, Windows és Linux rendszeren fut. A Sayso importálni tudja a Pindropból a diktálásokat, a szótárat és a promptkészleteket."
+  sensevoice_title: "A Sayso váltja a Pindropot"
+  summary: "A Pindrop 1.23.0 az utolsó kiadás. A helyébe a Sayso lép."
+  title: "A Pindrop fejlesztése megszűnt"
+  version_line: "Pindrop 1.23.0 · Utolsó kiadás"
 privacy:
   _self: "Adatvédelem"
 share:

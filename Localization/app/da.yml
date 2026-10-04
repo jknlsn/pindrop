@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop har brug for et par tilladelser for at fungere.
     Dit privatliv respekteres altid.
-  needs_accessibility_permission_to_insert: "\\\"\\\" Pindrop har brug for tilgængelighedstilladelse for at indsætte tekst ved din markør.                          Sådan giver du tilladelse: 1. Klik på \\\"Åbn systemindstillinger\\\" nedenfor 2. Klik på knappen + 3. Naviger til appen vist i Finder 4. Genstart Pindrop efter at have givet tilladelse Uden denne tilladelse vil tekst kun blive kopieret til din udklipsholder.             \\\"\\\""
+  needs_accessibility_permission_to_insert: "\\\"\\\" Pindrop har brug for tilgængelighedstilladelse for at indsætte tekst ved din markør.\n\nSådan giver du tilladelse:\n1. Klik på \\\"Åbn systemindstillinger\\\" nedenfor\n2. Klik på knappen +\n3. Naviger til appen vist i Finder\n4. Genstart Pindrop efter at have givet tilladelse Uden denne tilladelse vil tekst kun blive kopieret til din udklipsholder.\n\\\"\\"
   needs_microphone_access_to_record_and_tr: "Pindrop har brug for mikrofonadgang for at optage og transskribere din stemme.nnGiv venligst tilladelse i Systemindstillinger."
   on_github: "Pindrop på GitHub"
   orb: "Pindrop-kugle"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Tak til %@ for bidraget (PR #61)."
 the:
   floating_indicator_is_hidden: "Den flydende indikator er skjult."
-  model_failed_to_load_within_60_seconds_this: "\\\"\\\" Modellen kunne ikke indlæses inden for 60 sekunder. Dette betyder normalt, at modelfilerne er beskadigede eller inkompatible.                          For at løse dette: 1. Åbn Indstillinger → Modeller 2. Slet den problematiske model 3. Download modellen igen Hvis problemet fortsætter, prøv en mindre model (Tiny eller Base).             \\\"\\\""
+  model_failed_to_load_within_60_seconds_this: "\\\"\\\" Modellen kunne ikke indlæses inden for 60 sekunder. Dette betyder normalt, at modelfilerne er beskadigede eller inkompatible.\n\nFor at løse dette:\n1. Åbn Indstillinger → Modeller\n2. Slet den problematiske model\n3. Download modellen igen Hvis problemet fortsætter, prøv en mindre model (Tiny eller Base).\n\\\"\\"
   new_nemotron_streaming_engine_shows_words_as: "Den nye Nemotron-streamingmotor viser ordene, mens du siger dem, og motoren forvarmes ved start, så din første diktering begynder uden forsinkelse."
   selected_chunk_variant_isn_t_downloaded_yet: "Den valgte chunk-variant er ikke downloadet endnu. Skift vil starte en download."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\\\"\\\" Kan ikke oprette forbindelse til AI-forbedringstjenesten.                                  Kontroller venligst: 1. Din internetforbindelse 2. API-endepunktets URL er korrekt 3. Tjenesten oplever ikke afbrydelse. Transskriptionen blev gemt uden forbedring.                 \\\"\\\""
+  to_connect_to_the_ai_enhancement_service: "\\\"\\\" Kan ikke oprette forbindelse til AI-forbedringstjenesten.\n\nKontroller venligst:\n1. Din internetforbindelse\n2. API-endepunktets URL er korrekt\n3. Tjenesten oplever ikke afbrydelse. Transskriptionen blev gemt uden forbedring.\n\\\"\\"
   to_finish_transcription: "Kan ikke afslutte transskriptionen"
   to_load_history: "Kunne ikke indlæse historik: %@"
   to_load_models_try_refresh: "Kan ikke indlæse modeller. Prøv at opdatere."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Du kan til enhver tid ændre disse fra menulinjen → Indstillinger → Genvejstaster"
   re_all_set: "Du er klar!"
   re_all_set_058a8130: "Du er klar!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\\\"\\\" Du har overskredet din API-hastighedsgrænse eller -kvote.                                  Sådan rettes dette: 1. Vent et par minutter, og prøv igen 2. Tjek din API-udbyders brugsgrænser 3. Overvej at opgradere din API-plan. Transskriptionen blev gemt uden forbedring.                 \\\"\\\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "\\\"\\\" Du har overskredet din API-hastighedsgrænse eller -kvote.\n\nSådan rettes dette:\n1. Vent et par minutter, og prøv igen\n2. Tjek din API-udbyders brugsgrænser\n3. Overvej at opgradere din API-plan. Transskriptionen blev gemt uden forbedring.\n\\\"\\"
   re_in_control: "Du har kontrollen"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\\\"\\\" Din API-nøgle ser ud til at være ugyldig eller udløbet.                                  For at rette dette: 1. Åbn Indstillinger → AI-forbedring 2. Bekræft, at din API-nøgle er korrekt 3. Kontroller, at dit API-slutpunkt er korrekt. Transskriptionen blev gemt uden forbedring.                 \\\"\\\""
+  api_key_appears_to_be_invalid_or_expired_to: "\\\"\\\" Din API-nøgle ser ud til at være ugyldig eller udløbet.\n\nFor at rette dette:\n1. Åbn Indstillinger → AI-forbedring\n2. Bekræft, at din API-nøgle er korrekt\n3. Kontroller, at dit API-slutpunkt er korrekt. Transskriptionen blev gemt uden forbedring.\n\\\"\\"
   floating_indicator_is_now_a_living_audio_re: "Din flydende indikator er nu en levende, lydreaktiv orb. Den ånder i tomgang, vokser når du taler, og streamer dine ord live mens du dikterer."
   hotkeys_are_ready_to_use_nyou_can_customize: "Dine genvejstaster er klar til brug.nDu kan tilpasse dem senere i Indstillinger."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Hak"
 whatsnew:
-  footer: "Derudover: promptforudindstillinger er tilbage i menulinjen, optagekuglen har en ny bølgeform, og eksisterende biblioteker åbner igen pålideligt."
-  formatting_body: "Ret gemte transskriptioner i Library, og behold en tydelig Edited-markering."
-  formatting_title: "Redigerbare transskriptioner"
-  indicators_body: "Se tidsforbrug pr. trin og AI-tokenforbrug for hver diktering samt gennemsnit i Stats."
-  indicators_title: "Pipeline-indsigt"
-  languages_body: "Telemetri forbliver slået fra, indtil du tilmelder dig, og træningsbidrag bliver på din Mac til gennemgang, eksport eller sletning."
-  languages_title: "Privatlivs-først diagnostik"
-  sensevoice_body: "Streaming-callbacks, nedlukning og live UI-opdateringer forbliver nu ordnede og effektive."
-  sensevoice_title: "Mere pålidelig diktering"
-  summary: "Privat diagnostik, redigerbar historik, dybere performance-indsigt og mere pålidelig diktering."
-  version_line: "Pindrop 1.22.0 · juli 2026"
+  footer: "Hent Sayso på justsayso.app."
+  formatting_body: "Du kan fortsætte med at bruge denne version. Dine transskriptioner, noter og indstillinger bliver på din Mac."
+  formatting_title: "Pindrop virker fortsat"
+  get_sayso: "Hent Sayso"
+  indicators_body: "Pindrop-repositoriet på GitHub er arkiveret og skrivebeskyttet."
+  indicators_title: "Kildekoden er fortsat tilgængelig"
+  languages_body: "Dette er den sidste version. Pindrop får ingen nye funktioner, rettelser eller support herefter."
+  languages_title: "Ingen flere opdateringer"
+  sensevoice_body: "Sayso er den nye dikteringsapp fra udvikleren af Pindrop. Den kører på macOS, Windows og Linux. Sayso kan importere dine dikteringer, din ordbog og dine prompt-forudindstillinger fra Pindrop."
+  sensevoice_title: "Sayso afløser Pindrop"
+  summary: "Pindrop 1.23.0 er den sidste version. Sayso er afløseren."
+  title: "Pindrop er udgået"
+  version_line: "Pindrop 1.23.0 · Sidste version"
 privacy:
   _self: "Anonymitet"
 share:

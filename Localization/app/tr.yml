@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop'un çalışması için birkaç izne ihtiyacı var.
     Gizliliğinize her zaman saygı duyulur.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop'un imlecinize metin ekleyebilmesi için Erişilebilirlik iznine ihtiyacı var.                          İzin vermek için: 1. Aşağıdaki \"Sistem Ayarlarını Aç\"ı tıklayın 2. + düğmesini tıklayın 3. Finder'da gösterilen uygulamaya gidin 4. İzin verdikten sonra Pindrop'u yeniden başlatın Bu izin olmadan, metin yalnızca panonuza kopyalanacaktır.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop'un imlecinize metin ekleyebilmesi için Erişilebilirlik iznine ihtiyacı var.\n\nİzin vermek için:\n1. Aşağıdaki \"Sistem Ayarlarını Aç\"ı tıklayın\n2. + düğmesini tıklayın\n3. Finder'da gösterilen uygulamaya gidin\n4. İzin verdikten sonra Pindrop'u yeniden başlatın Bu izin olmadan, metin yalnızca panonuza kopyalanacaktır."
   needs_microphone_access_to_record_and_tr: "Pindrop'un sesinizi kaydedip yazıya dökebilmesi için mikrofon erişimine ihtiyacı var.nnLütfen Sistem Ayarları'ndan izin verin."
   on_github: "GitHub'da Pindrop"
   orb: "Pindrop Küresi"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Katkısı için %@ kişisine teşekkürler (PR #61)."
 the:
   floating_indicator_is_hidden: "Kayan gösterge gizli."
-  model_failed_to_load_within_60_seconds_this: "\"\" Model 60 saniye içinde yüklenemedi. Bu genellikle model dosyalarının bozuk veya uyumsuz olduğu anlamına gelir.                          Bunu düzeltmek için: 1. Ayarlar → Modeller'i açın 2. Sorunlu modeli silin 3. Modeli yeniden indirin Sorun devam ederse daha küçük bir model deneyin (Tiny veya Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Model 60 saniye içinde yüklenemedi. Bu genellikle model dosyalarının bozuk veya uyumsuz olduğu anlamına gelir.\n\nBunu düzeltmek için:\n1. Ayarlar → Modeller'i açın\n2. Sorunlu modeli silin\n3. Modeli yeniden indirin Sorun devam ederse daha küçük bir model deneyin (Tiny veya Base)."
   new_nemotron_streaming_engine_shows_words_as: "Yeni Nemotron akış motoru kelimeleri söylediğiniz anda gösterir ve açılışta önceden hazırlanır, böylece ilk dikteniz gecikmeden başlar."
   selected_chunk_variant_isn_t_downloaded_yet: "Seçili yığın varyantı henüz indirilmedi. Değiştirmek bir indirme başlatacak."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" AI geliştirme hizmetine bağlanılamıyor.                                  Lütfen şunları kontrol edin: 1. İnternet bağlantınız 2. API uç noktası URL'si doğrudur 3. Hizmette bir kesinti yaşanmıyor Çeviri yazı, geliştirme yapılmadan kaydedildi.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "AI geliştirme hizmetine bağlanılamıyor.\n\nLütfen şunları kontrol edin:\n1. İnternet bağlantınız\n2. API uç noktası URL'si doğrudur\n3. Hizmette bir kesinti yaşanmıyor Çeviri yazı, geliştirme yapılmadan kaydedildi."
   to_finish_transcription: "Transkripsiyon tamamlanamadı"
   to_load_history: "Geçmiş yüklenemiyor: %@"
   to_load_models_try_refresh: "Modeller yüklenemiyor. Yenilemeyi deneyin."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Bunları istediğiniz zaman menü çubuğundan → Ayarlar → Kısayol Tuşlarından değiştirebilirsiniz."
   re_all_set: "Tamamen Hazırsınız!"
   re_all_set_058a8130: "Artık hazırsınız!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" API hızı sınırınızı veya kotanızı aştınız.                                  Bunu düzeltmek için: 1. Birkaç dakika bekleyin ve tekrar deneyin 2. API sağlayıcınızın kullanım sınırlarını kontrol edin 3. API planınızı yükseltmeyi düşünün Çeviri yazı, geliştirme yapılmadan kaydedildi.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "API hızı sınırınızı veya kotanızı aştınız.\n\nBunu düzeltmek için:\n1. Birkaç dakika bekleyin ve tekrar deneyin\n2. API sağlayıcınızın kullanım sınırlarını kontrol edin\n3. API planınızı yükseltmeyi düşünün Çeviri yazı, geliştirme yapılmadan kaydedildi."
   re_in_control: "Kontrol sizde"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" API anahtarınız geçersiz veya süresi dolmuş görünüyor.                                  Bunu düzeltmek için: 1. Ayarlar → Yapay Zeka Geliştirme'yi açın 2. API anahtarınızın doğru olduğunu doğrulayın 3. API uç noktanızın doğru olduğunu kontrol edin Transkripsiyon, geliştirme yapılmadan kaydedildi.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "API anahtarınız geçersiz veya süresi dolmuş görünüyor.\n\nBunu düzeltmek için:\n1. Ayarlar → Yapay Zeka Geliştirme'yi açın\n2. API anahtarınızın doğru olduğunu doğrulayın\n3. API uç noktanızın doğru olduğunu kontrol edin Transkripsiyon, geliştirme yapılmadan kaydedildi."
   floating_indicator_is_now_a_living_audio_re: "Kayan göstergeniz artık sese tepki veren canlı bir orb. Boştayken nefes alır, konuştuğunuzda büyür ve dikte ederken kelimelerinizi canlı olarak aktarır."
   hotkeys_are_ready_to_use_nyou_can_customize: "Kısayol tuşlarınız kullanıma hazır.nBunları daha sonra Ayarlar'da özelleştirebilirsiniz."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Çentik"
 whatsnew:
-  footer: "Ayrıca: istem ön ayarları menü çubuğuna geri döndü, kayıt küresinin yeni bir dalga biçimi var ve mevcut kitaplıklar yeniden güvenilir şekilde açılıyor."
-  formatting_body: "Library’deki kayıtlı transkripsiyonları düzeltin ve net bir Edited işaretini koruyun."
-  formatting_title: "Düzenlenebilir transkripsiyonlar"
-  indicators_body: "Her dikte için aşama bazlı süreyi ve AI jeton kullanımını, ayrıca Stats’taki ortalamaları görün."
-  indicators_title: "Boru hattı içgörüleri"
-  languages_body: "Telemetri siz katılmayı seçene kadar kapalı kalır ve eğitim katkıları inceleme, dışa aktarma veya silme için Mac’inizde kalır."
-  languages_title: "Gizlilik odaklı tanılama"
-  sensevoice_body: "Akış geri çağrıları, kapatma ve canlı UI güncellemeleri artık sıralı ve verimli kalıyor."
-  sensevoice_title: "Daha güvenilir dikte"
-  summary: "Özel tanılama, düzenlenebilir geçmiş, daha derin performans içgörüleri ve daha güvenilir dikte."
-  version_line: "Pindrop 1.22.0 · Temmuz 2026"
+  footer: "Sayso'yu justsayso.app adresinden indirin."
+  formatting_body: "Bu sürümü kullanmaya devam edebilirsiniz. Transkriptleriniz, notlarınız ve ayarlarınız Mac'inizde kalır."
+  formatting_title: "Pindrop çalışmaya devam eder"
+  get_sayso: "Sayso'yu indir"
+  indicators_body: "GitHub'daki Pindrop deposu arşivlendi ve salt okunur."
+  indicators_title: "Kaynak kodu erişilebilir kalıyor"
+  languages_body: "Bu son sürümdür. Pindrop bundan sonra yeni özellik, düzeltme veya destek almayacak."
+  languages_title: "Artık güncelleme yok"
+  sensevoice_body: "Sayso, Pindrop geliştiricisinin yeni dikte uygulamasıdır. macOS, Windows ve Linux'ta çalışır. Sayso, Pindrop'taki diktelerinizi, sözlüğünüzü ve istem ön ayarlarınızı içe aktarabilir."
+  sensevoice_title: "Sayso, Pindrop'un yerini alıyor"
+  summary: "Pindrop 1.23.0 son sürümdür. Yerini Sayso alıyor."
+  title: "Pindrop sonlandırıldı"
+  version_line: "Pindrop 1.23.0 · Son sürüm"
 privacy:
   _self: "Gizlilik"
 share:

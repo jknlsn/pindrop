@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop potřebuje k práci několik oprávnění.
     Vaše soukromí je vždy respektováno.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop potřebuje oprávnění pro usnadnění přístupu, aby mohl vložit text na váš kurzor.                          Udělení oprávnění: 1. Klikněte na „Otevřít nastavení systému“ níže 2. Klikněte na tlačítko + 3. Přejděte do aplikace zobrazené ve Finderu 4. Po udělení oprávnění restartujte Pindrop Bez tohoto oprávnění bude text zkopírován pouze do vaší schránky.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop potřebuje oprávnění pro usnadnění přístupu, aby mohl vložit text na váš kurzor.\n\nUdělení oprávnění:\n1. Klikněte na „Otevřít nastavení systému“ níže\n2. Klikněte na tlačítko +\n3. Přejděte do aplikace zobrazené ve Finderu\n4. Po udělení oprávnění restartujte Pindrop Bez tohoto oprávnění bude text zkopírován pouze do vaší schránky."
   needs_microphone_access_to_record_and_tr: "Pindrop potřebuje přístup k mikrofonu, aby mohl nahrávat a přepisovat váš hlas.nnUdělte prosím oprávnění v Nastavení systému."
   on_github: "Pindrop na GitHubu"
   orb: "Pindrop Koule"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Díky %@ za příspěvek (PR #61)."
 the:
   floating_indicator_is_hidden: "Plovoucí indikátor je skrytý."
-  model_failed_to_load_within_60_seconds_this: "\"\" Model se nepodařilo načíst do 60 sekund. To obvykle znamená, že soubory modelu jsou poškozené nebo nekompatibilní.                          Řešení: 1. Otevřete Nastavení → Modely 2. Odstraňte problematický model 3. Znovu si stáhněte model Pokud problém přetrvává, zkuste menší model (Tiny nebo Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Model se nepodařilo načíst do 60 sekund. To obvykle znamená, že soubory modelu jsou poškozené nebo nekompatibilní.\n\nŘešení:\n1. Otevřete Nastavení → Modely\n2. Odstraňte problematický model\n3. Znovu si stáhněte model Pokud problém přetrvává, zkuste menší model (Tiny nebo Base)."
   new_nemotron_streaming_engine_shows_words_as: "Nový streamovací engine Nemotron zobrazuje slova tak, jak je říkáte, a při spuštění se předehřívá, takže první diktování začne bez zdržení."
   selected_chunk_variant_isn_t_downloaded_yet: "Vybraná varianta bloku ještě není stažena. Přepnutím se zahájí stahování."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Nelze se připojit ke službě vylepšení AI.                                  Zkontrolujte prosím: 1. Vaše internetové připojení 2. Adresa URL koncového bodu API je správná 3. Služba nemá výpadek Přepis byl uložen bez vylepšení.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Nelze se připojit ke službě vylepšení AI.\n\nZkontrolujte prosím:\n1. Vaše internetové připojení\n2. Adresa URL koncového bodu API je správná\n3. Služba nemá výpadek Přepis byl uložen bez vylepšení."
   to_finish_transcription: "Přepis nelze dokončit"
   to_load_history: "Nelze načíst historii: %@"
   to_load_models_try_refresh: "Modely nelze načíst. Zkuste obnovit."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Můžete je kdykoli změnit na liště nabídek → Nastavení → Klávesové zkratky"
   re_all_set: "Vše je připraveno!"
   re_all_set_058a8130: "Vše je připraveno!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Překročili jste limit nebo kvótu rychlosti API.                                  Chcete-li tento problém vyřešit: 1. Počkejte několik minut a zkuste to znovu. 2. Zkontrolujte limity využití poskytovatele rozhraní API. 3. Zvažte upgrade plánu rozhraní API Přepis byl uložen bez vylepšení.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Překročili jste limit nebo kvótu rychlosti API.\n\nChcete-li tento problém vyřešit:\n1. Počkejte několik minut a zkuste to znovu.\n2. Zkontrolujte limity využití poskytovatele rozhraní API.\n3. Zvažte upgrade plánu rozhraní API Přepis byl uložen bez vylepšení."
   re_in_control: "Máte to pod kontrolou"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Váš klíč API je zřejmě neplatný nebo vypršela jeho platnost.                                  Chcete-li tento problém vyřešit: 1. Otevřete Nastavení → Vylepšení AI 2. Ověřte správnost klíče API 3. Zkontrolujte, zda je koncový bod rozhraní API správný Přepis byl uložen bez vylepšení.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Váš klíč API je zřejmě neplatný nebo vypršela jeho platnost.\n\nChcete-li tento problém vyřešit:\n1. Otevřete Nastavení → Vylepšení AI\n2. Ověřte správnost klíče API\n3. Zkontrolujte, zda je koncový bod rozhraní API správný Přepis byl uložen bez vylepšení."
   floating_indicator_is_now_a_living_audio_re: "Váš plovoucí indikátor je teď živý, zvukově reaktivní orb. V klidu dýchá, při řeči se zvětšuje a během diktování živě streamuje vaše slova."
   hotkeys_are_ready_to_use_nyou_can_customize: "Vaše klávesové zkratky jsou připraveny k použití.nMůžete si je později přizpůsobit v Nastavení."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Zářez"
 whatsnew:
-  footer: "Také: předvolby promptů jsou zpět v liště nabídek, nahrávací koule má novou vlnovku a stávající knihovny se znovu otevírají spolehlivě."
-  formatting_body: "Opravujte uložené přepisy v Library a ponechte si jasnou značku Edited."
-  formatting_title: "Upravitelné přepisy"
-  indicators_body: "Sledujte časování jednotlivých fází a spotřebu AI tokenů u každého diktátu i průměry ve Stats."
-  indicators_title: "Přehledy pipeline"
-  languages_body: "Telemetrie zůstává vypnutá, dokud ji nezapnete, a tréninkové příspěvky zůstávají na vašem Macu ke kontrole, exportu nebo smazání."
-  languages_title: "Diagnostika s prioritou soukromí"
-  sensevoice_body: "Streamovací callbacky, ukončení a živé aktualizace UI nyní zůstávají uspořádané a efektivní."
-  sensevoice_title: "Spolehlivější diktování"
-  summary: "Soukromá diagnostika, upravitelná historie, hlubší výkonnostní přehledy a spolehlivější diktování."
-  version_line: "Pindrop 1.22.0 · červenec 2026"
+  footer: "Stáhněte si Sayso na justsayso.app."
+  formatting_body: "Tuto verzi můžete používat dál. Přepisy, poznámky a nastavení zůstávají ve vašem Macu."
+  formatting_title: "Pindrop funguje dál"
+  get_sayso: "Získat Sayso"
+  indicators_body: "Repozitář Pindrop na GitHubu je archivovaný a jen pro čtení."
+  indicators_title: "Zdrojový kód zůstává dostupný"
+  languages_body: "Toto je poslední verze. Pindrop už nedostane nové funkce, opravy ani podporu."
+  languages_title: "Žádné další aktualizace"
+  sensevoice_body: "Sayso je nová aplikace pro diktování od vývojáře aplikace Pindrop. Funguje v systémech macOS, Windows a Linux. Sayso umí z aplikace Pindrop importovat vaše diktáty, slovník a předvolby promptů."
+  sensevoice_title: "Sayso nahrazuje Pindrop"
+  summary: "Pindrop 1.23.0 je poslední verze. Nahrazuje ji Sayso."
+  title: "Vývoj aplikace Pindrop skončil"
+  version_line: "Pindrop 1.23.0 · Poslední verze"
 privacy:
   _self: "Soukromí"
 share:

@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop 需要一些权限才能工作。
     您的隐私始终受到尊重。
-  needs_accessibility_permission_to_insert: "\"\"             Pindrop 需要辅助功能权限才能在您的光标处插入文本。                          授予权限：             1. 点击下方\"打开系统设置\"             2. 点击 + 按钮             3. 导航到 Finder 中显示的应用             4. 授予权限后重新启动 Pindrop                          没有此权限，文本将只复制到您的剪贴板。             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop 需要辅助功能权限才能在您的光标处插入文本。\n\n授予权限：\n1. 点击下方\"打开系统设置\"\n2. 点击 + 按钮\n3. 导航到 Finder 中显示的应用\n4. 授予权限后重新启动 Pindrop\n\n没有此权限，文本将只复制到您的剪贴板。"
   needs_microphone_access_to_record_and_tr: "Pindrop 需要麦克风访问权限来录制和转录您的语音。nn请在系统设置中授予权限。"
   on_github: "GitHub 上的 Pindrop"
   orb: "Pindrop 光球"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "感谢 %@ 的贡献 (PR #61)。"
 the:
   floating_indicator_is_hidden: "悬浮指示器已隐藏。"
-  model_failed_to_load_within_60_seconds_this: "\"\"             模型在 60 秒内未能加载。这通常意味着模型文件已损坏或不兼容。                          解决方法：             1. 打开设置 → 模型             2. 删除有问题的模型             3. 重新下载模型                          如果问题仍然存在，请尝试使用较小的模型（Tiny 或 Base）。             \"\""
+  model_failed_to_load_within_60_seconds_this: "模型在 60 秒内未能加载。这通常意味着模型文件已损坏或不兼容。\n\n解决方法：\n1. 打开设置 → 模型\n2. 删除有问题的模型\n3. 重新下载模型\n\n如果问题仍然存在，请尝试使用较小的模型（Tiny 或 Base）。"
   new_nemotron_streaming_engine_shows_words_as: "新的 Nemotron 流式引擎会在你说话时显示文字，并在启动时预热，让第一次听写也能无延迟开始。"
   selected_chunk_variant_isn_t_downloaded_yet: "所选的分块变体尚未下载。切换将开始下载。"
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\"                 无法连接到 AI 增强服务。                                  请检查：                 1. 您的互联网连接                 2. API 端点 URL 是否正确                 3. 服务是否正常运行                                  转录已保存，未进行增强。                 \"\""
+  to_connect_to_the_ai_enhancement_service: "无法连接到 AI 增强服务。\n\n请检查：\n1. 您的互联网连接\n2. API 端点 URL 是否正确\n3. 服务是否正常运行\n\n转录已保存，未进行增强。"
   to_finish_transcription: "无法完成转录"
   to_load_history: "无法加载历史：%@"
   to_load_models_try_refresh: "无法加载模型。尝试刷新。"
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "您可以随时从菜单栏 → 设置 → 快捷键更改这些"
   re_all_set: "一切就绪！"
   re_all_set_058a8130: "一切就绪！"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\"                 您已超出 API 速率限制或配额。                                  解决方法：                 1. 等待几分钟后重试                 2. 检查您的 API 提供商的使用限制                 3. 考虑升级您的 API 计划                                  转录已保存，未进行增强。                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "您已超出 API 速率限制或配额。\n\n解决方法：\n1. 等待几分钟后重试\n2. 检查您的 API 提供商的使用限制\n3. 考虑升级您的 API 计划\n\n转录已保存，未进行增强。"
   re_in_control: "你掌握控制权"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\"                 您的 API 密钥似乎无效或已过期。                                  解决方法：                 1. 打开设置 → AI 增强                 2. 验证您的 API 密钥是否正确                 3. 检查您的 API 端点是否正确                                  转录已保存，未进行增强。                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "您的 API 密钥似乎无效或已过期。\n\n解决方法：\n1. 打开设置 → AI 增强\n2. 验证您的 API 密钥是否正确\n3. 检查您的 API 端点是否正确\n\n转录已保存，未进行增强。"
   floating_indicator_is_now_a_living_audio_re: "你的浮动指示器现在是会对音频作出反应的活体 orb。闲置时会呼吸，说话时会膨胀，并在你听写时实时流式显示文字。"
   hotkeys_are_ready_to_use_nyou_can_customize: "您的快捷键已准备好使用。n您可以稍后在设置中自定义它们。"
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "刘海"
 whatsnew:
-  footer: "此外：提示词预设已重回菜单栏，录音光球有了新波形，现有资料库也能再次可靠打开。"
-  formatting_body: "可在 Library 中修正已保存的转录，并保留清晰的 Edited 标记。"
-  formatting_title: "可编辑转录"
-  indicators_body: "查看每次听写各阶段耗时与 AI 令牌用量，以及 Stats 中的平均值。"
-  indicators_title: "流水线洞察"
-  languages_body: "遥测在你主动启用前保持关闭，训练贡献数据仍留在你的 Mac 上，可随时查看、导出或删除。"
-  languages_title: "隐私优先的诊断"
-  sensevoice_body: "流式回调、关闭流程与实时界面更新现在保持有序且高效。"
-  sensevoice_title: "更可靠的听写"
-  summary: "私密诊断、可编辑历史、更深入的性能洞察，以及更可靠的听写。"
-  version_line: "Pindrop 1.22.0 · 2026 年 7 月"
+  footer: "请在 justsayso.app 下载 Sayso。"
+  formatting_body: "你可以继续使用此版本。你的转写、笔记和设置都保留在 Mac 上。"
+  formatting_title: "Pindrop 仍可使用"
+  get_sayso: "获取 Sayso"
+  indicators_body: "GitHub 上的 Pindrop 仓库已归档，仅供只读访问。"
+  indicators_title: "源代码仍然可用"
+  languages_body: "这是最终版本。此后 Pindrop 不再提供新功能、修复或支持。"
+  languages_title: "不再更新"
+  sensevoice_body: "Sayso 是 Pindrop 开发者推出的全新听写应用，可在 macOS、Windows 和 Linux 上运行。 Sayso 可以导入你在 Pindrop 中的听写记录、词典和提示词预设。"
+  sensevoice_title: "Sayso 取代 Pindrop"
+  summary: "Pindrop 1.23.0 是最终版本。Sayso 是它的替代产品。"
+  title: "Pindrop 已停止开发"
+  version_line: "Pindrop 1.23.0 · 最终版本"
 privacy:
   _self: "隐私"
 share:

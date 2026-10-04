@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop are nevoie de câteva permisiuni pentru a funcționa.
     Intimitatea ta este întotdeauna respectată.
-  needs_accessibility_permission_to_insert: "„” Pindrop are nevoie de permisiunea de accesibilitate pentru a insera text la cursor.                          Pentru a acorda permisiunea: 1. Faceți clic pe „Open System Settings” de mai jos 2. Faceți clic pe butonul + 3. Navigați la aplicația afișată în Finder 4. Reporniți Pindrop după acordarea permisiunii Fără această permisiune, textul va fi copiat numai în clipboard.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop are nevoie de permisiunea de accesibilitate pentru a insera text la cursor.\n\nPentru a acorda permisiunea:\n1. Faceți clic pe „Open System Settings” de mai jos\n2. Faceți clic pe butonul +\n3. Navigați la aplicația afișată în Finder\n4. Reporniți Pindrop după acordarea permisiunii Fără această permisiune, textul va fi copiat numai în clipboard."
   needs_microphone_access_to_record_and_tr: "Pindrop are nevoie de acces la microfon pentru a vă înregistra și a transcrie vocea.nnVă rugăm să acordați permisiunea în Setările de sistem."
   on_github: "Pindrop pe GitHub"
   orb: "Sfera Pindrop"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Mulțumiri lui %@ pentru contribuție (PR #61)."
 the:
   floating_indicator_is_hidden: "Indicatorul plutitor este ascuns."
-  model_failed_to_load_within_60_seconds_this: "\"\" Modelul nu s-a încărcat în 60 de secunde. Aceasta înseamnă de obicei că fișierele model sunt corupte sau incompatibile.                          Pentru a remedia acest lucru: 1. Deschideți Setări → Modele 2. Ștergeți modelul problematic 3. Descărcați din nou modelul Dacă problema persistă, încercați un model mai mic (Tiny sau Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Modelul nu s-a încărcat în 60 de secunde. Aceasta înseamnă de obicei că fișierele model sunt corupte sau incompatibile.\n\nPentru a remedia acest lucru:\n1. Deschideți Setări → Modele\n2. Ștergeți modelul problematic\n3. Descărcați din nou modelul Dacă problema persistă, încercați un model mai mic (Tiny sau Base)."
   new_nemotron_streaming_engine_shows_words_as: "Noul motor de streaming Nemotron afișează cuvintele pe măsură ce le rostești și se preîncălzește la lansare, astfel încât prima dictare pornește fără întârziere."
   selected_chunk_variant_isn_t_downloaded_yet: "Varianta de bucată selectată nu este încă descărcată. Comutarea va începe o descărcare."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "„” Nu se poate conecta la serviciul de îmbunătățire a AI.                                  Vă rugăm să verificați: 1. Conexiunea dvs. la internet 2. Adresa URL a punctului final API este corectă 3. Serviciul nu se confruntă cu o întrerupere Transcrierea a fost salvată fără îmbunătățiri.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Nu se poate conecta la serviciul de îmbunătățire a AI.\n\nVă rugăm să verificați:\n1. Conexiunea dvs. la internet\n2. Adresa URL a punctului final API este corectă\n3. Serviciul nu se confruntă cu o întrerupere Transcrierea a fost salvată fără îmbunătățiri."
   to_finish_transcription: "Imposibil de finalizat transcrierea"
   to_load_history: "Nu se poate încărca istoricul: %@"
   to_load_models_try_refresh: "Nu se pot încărca modelele. Încercați să reîmprospătați."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Le puteți modifica oricând din bara de meniu → Setări → Taste rapide"
   re_all_set: "Ești gata!"
   re_all_set_058a8130: "Sunteți gata!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "„” Ați depășit limita sau cota de rată API.                                  Pentru a remedia acest lucru: 1. Așteptați câteva minute și încercați din nou 2. Verificați limitele de utilizare ale furnizorului dvs. API 3. Luați în considerare actualizarea planului API Transcrierea a fost salvată fără îmbunătățiri.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Ați depășit limita sau cota de rată API.\n\nPentru a remedia acest lucru:\n1. Așteptați câteva minute și încercați din nou\n2. Verificați limitele de utilizare ale furnizorului dvs. API\n3. Luați în considerare actualizarea planului API Transcrierea a fost salvată fără îmbunătățiri."
   re_in_control: "Tu deții controlul"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "„” Cheia dvs. API pare a fi nevalidă sau a expirat.                                  Pentru a remedia acest lucru: 1. Deschideți Setări → Îmbunătățire AI 2. Verificați cheia dvs. API este corectă 3. Verificați dacă punctul final API este corect Transcrierea a fost salvată fără îmbunătățire.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Cheia dvs. API pare a fi nevalidă sau a expirat.\n\nPentru a remedia acest lucru:\n1. Deschideți Setări → Îmbunătățire AI\n2. Verificați cheia dvs. API este corectă\n3. Verificați dacă punctul final API este corect Transcrierea a fost salvată fără îmbunătățire."
   floating_indicator_is_now_a_living_audio_re: "Indicatorul tău plutitor este acum un orb viu, reactiv la audio. Respiră când este inactiv, se umflă când vorbești și transmite cuvintele în direct în timp ce dictezi."
   hotkeys_are_ready_to_use_nyou_can_customize: "Tastele rapide sunt gata de utilizare.nLe puteți personaliza mai târziu în Setări."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Crestătură"
 whatsnew:
-  footer: "De asemenea: presetările de prompt revin în bara de meniu, sfera de înregistrare are o nouă formă de undă, iar bibliotecile existente se deschid din nou în mod fiabil."
-  formatting_body: "Corectați transcrierile salvate în Library și păstrați un marcaj Edited clar."
-  formatting_title: "Transcrieri editabile"
-  indicators_body: "Vedeți timpul pe etape și utilizarea de tokeni AI pentru fiecare dictare, plus mediile din Stats."
-  indicators_title: "Perspective asupra pipeline-ului"
-  languages_body: "Telemetria rămâne dezactivată până când optați să o activați, iar contribuțiile de antrenament rămân pe Mac-ul dvs. pentru revizuire, export sau ștergere."
-  languages_title: "Diagnostice cu confidențialitatea pe primul loc"
-  sensevoice_body: "Callback-urile de streaming, oprirea și actualizările UI live rămân acum ordonate și eficiente."
-  sensevoice_title: "Dictare mai fiabilă"
-  summary: "Diagnostice private, istoric editabil, perspective mai profunde de performanță și dictare mai fiabilă."
-  version_line: "Pindrop 1.22.0 · iulie 2026"
+  footer: "Descarcă Sayso de la justsayso.app."
+  formatting_body: "Poți folosi în continuare această versiune. Transcrierile, notițele și setările rămân pe Mac-ul tău."
+  formatting_title: "Pindrop funcționează în continuare"
+  get_sayso: "Obține Sayso"
+  indicators_body: "Depozitul Pindrop de pe GitHub este arhivat și doar pentru citire."
+  indicators_title: "Codul sursă rămâne disponibil"
+  languages_body: "Aceasta este versiunea finală. Pindrop nu mai primește funcții noi, remedieri sau asistență."
+  languages_title: "Fără alte actualizări"
+  sensevoice_body: "Sayso este noua aplicație de dictare de la dezvoltatorul Pindrop. Rulează pe macOS, Windows și Linux. Sayso poate importa din Pindrop dictările, dicționarul și presetările de prompt."
+  sensevoice_title: "Sayso înlocuiește Pindrop"
+  summary: "Pindrop 1.23.0 este versiunea finală. Sayso îl înlocuiește."
+  title: "Pindrop a fost întrerupt"
+  version_line: "Pindrop 1.23.0 · Versiunea finală"
 privacy:
   _self: "Confidențialitate"
 share:

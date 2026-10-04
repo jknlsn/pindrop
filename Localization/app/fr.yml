@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop a besoin de quelques autorisations pour fonctionner.
     Votre vie privée est toujours respectée.
-  needs_accessibility_permission_to_insert: "\"\"             Pindrop a besoin de l'autorisation d'accessibilité pour insérer du texte à votre curseur.                          Pour accorder l'autorisation :             1. Cliquez sur \"Ouvrir les Paramètres Système\" ci-dessous             2. Cliquez sur le bouton +             3. Naviguez vers l'app affichée dans Finder             4. Redémarrez Pindrop après avoir accordé l'autorisation                          Sans cette autorisation, le texte sera uniquement copié dans votre presse-papiers.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop a besoin de l'autorisation d'accessibilité pour insérer du texte à votre curseur.\n\nPour accorder l'autorisation :\n1. Cliquez sur \"Ouvrir les Paramètres Système\" ci-dessous\n2. Cliquez sur le bouton +\n3. Naviguez vers l'app affichée dans Finder\n4. Redémarrez Pindrop après avoir accordé l'autorisation\n\nSans cette autorisation, le texte sera uniquement copié dans votre presse-papiers."
   needs_microphone_access_to_record_and_tr: "Pindrop a besoin d'un accès au microphone pour enregistrer et transcrire votre voix.nnVeuillez accorder l'autorisation dans les Paramètres Système."
   on_github: "Pindrop sur GitHub"
   orb: "Orbe Pindrop"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Merci à %@ pour la contribution (PR #61)."
 the:
   floating_indicator_is_hidden: "L’indicateur flottant est masqué."
-  model_failed_to_load_within_60_seconds_this: "\"\"             Le modèle n'a pas pu se charger dans les 60 secondes. Cela signifie généralement que les fichiers du modèle sont corrompus ou incompatibles.                          Pour corriger cela :             1. Ouvrez Paramètres → Modèles             2. Supprimez le modèle problématique             3. Téléchargez à nouveau le modèle                          Si le problème persiste, essayez un modèle plus petit (Tiny ou Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Le modèle n'a pas pu se charger dans les 60 secondes. Cela signifie généralement que les fichiers du modèle sont corrompus ou incompatibles.\n\nPour corriger cela :\n1. Ouvrez Paramètres → Modèles\n2. Supprimez le modèle problématique\n3. Téléchargez à nouveau le modèle\n\nSi le problème persiste, essayez un modèle plus petit (Tiny ou Base)."
   new_nemotron_streaming_engine_shows_words_as: "Le nouveau moteur de streaming Nemotron affiche les mots au moment où vous les dites et se préchauffe au lancement pour que votre première dictée démarre sans délai."
   selected_chunk_variant_isn_t_downloaded_yet: "La variante sélectionnée n'est pas encore téléchargée. Basculer lancera un téléchargement."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\"                 Impossible de se connecter au service d'amélioration IA.                                  Veuillez vérifier :                 1. Votre connexion internet                 2. L'URL du point de terminaison API est correcte                 3. Le service ne subit pas de panne                                  La transcription a été enregistrée sans amélioration.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Impossible de se connecter au service d'amélioration IA.\n\nVeuillez vérifier :\n1. Votre connexion internet\n2. L'URL du point de terminaison API est correcte\n3. Le service ne subit pas de panne\n\nLa transcription a été enregistrée sans amélioration."
   to_finish_transcription: "Impossible de terminer la transcription"
   to_load_history: "Impossible de charger l'historique : %@"
   to_load_models_try_refresh: "Impossible de charger les modèles. Essayez d'actualiser."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Vous pouvez modifier ces éléments à tout moment depuis la barre de menus → Paramètres → Raccourcis"
   re_all_set: "Tout est prêt !"
   re_all_set_058a8130: "Tout est prêt !"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\"                 Vous avez dépassé votre limite de taux ou quota API.                                  Pour corriger cela :                 1. Attendez quelques minutes et réessayez                 2. Vérifiez les limites d'utilisation de votre fournisseur API                 3. Envisagez de mettre à niveau votre plan API                                  La transcription a été enregistrée sans amélioration.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Vous avez dépassé votre limite de taux ou quota API.\n\nPour corriger cela :\n1. Attendez quelques minutes et réessayez\n2. Vérifiez les limites d'utilisation de votre fournisseur API\n3. Envisagez de mettre à niveau votre plan API\n\nLa transcription a été enregistrée sans amélioration."
   re_in_control: "Vous gardez le contrôle"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\"                 Votre clé API semble invalide ou expirée.                                  Pour corriger cela :                 1. Ouvrez Paramètres → Amélioration IA                 2. Vérifiez que votre clé API est correcte                 3. Vérifiez que votre point de terminaison API est correct                                  La transcription a été enregistrée sans amélioration.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Votre clé API semble invalide ou expirée.\n\nPour corriger cela :\n1. Ouvrez Paramètres → Amélioration IA\n2. Vérifiez que votre clé API est correcte\n3. Vérifiez que votre point de terminaison API est correct\n\nLa transcription a été enregistrée sans amélioration."
   floating_indicator_is_now_a_living_audio_re: "Votre indicateur flottant est désormais un orb vivant et réactif à l’audio. Il respire au repos, gonfle quand vous parlez et diffuse vos mots en direct pendant la dictée."
   hotkeys_are_ready_to_use_nyou_can_customize: "Vos raccourcis sont prêts à être utilisés.nVous pouvez les personnaliser plus tard dans les Paramètres."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Encoche"
 whatsnew:
-  footer: "Également : les préréglages de prompts sont de retour dans la barre de menus, l'orbe d'enregistrement a une nouvelle forme d'onde, et les bibliothèques existantes s'ouvrent à nouveau de façon fiable."
-  formatting_body: "Corrigez les transcriptions enregistrées dans Library et conservez un marqueur Edited clairement visible."
-  formatting_title: "Transcriptions modifiables"
-  indicators_body: "Consultez le temps par étape et l'utilisation de tokens AI pour chaque dictée, ainsi que les moyennes dans Stats."
-  indicators_title: "Perspectives du pipeline"
-  languages_body: "La télémétrie reste désactivée tant que vous ne l'activez pas, et les contributions d'entraînement restent sur votre Mac pour relecture, export ou suppression."
-  languages_title: "Diagnostics axés sur la confidentialité"
-  sensevoice_body: "Les callbacks de streaming, l'arrêt et les mises à jour d'interface en direct restent désormais ordonnés et efficaces."
-  sensevoice_title: "Dictée plus fiable"
-  summary: "Diagnostics privés, historique modifiable, analyses de performance plus approfondies et dictée plus fiable."
-  version_line: "Pindrop 1.22.0 · juillet 2026"
+  footer: "Téléchargez Sayso sur justsayso.app."
+  formatting_body: "Vous pouvez continuer à utiliser cette version. Vos transcriptions, notes et réglages restent sur votre Mac."
+  formatting_title: "Pindrop continue de fonctionner"
+  get_sayso: "Obtenir Sayso"
+  indicators_body: "Le dépôt Pindrop sur GitHub est archivé et en lecture seule."
+  indicators_title: "Le code source reste disponible"
+  languages_body: "Ceci est la dernière version. Pindrop ne recevra plus de nouvelles fonctionnalités, de correctifs ni d’assistance."
+  languages_title: "Plus de mises à jour"
+  sensevoice_body: "Sayso est la nouvelle app de dictée du développeur de Pindrop. Elle fonctionne sur macOS, Windows et Linux. Sayso peut importer vos dictées, votre dictionnaire et vos préréglages de prompt depuis Pindrop."
+  sensevoice_title: "Sayso remplace Pindrop"
+  summary: "Pindrop 1.23.0 est la dernière version. Sayso le remplace."
+  title: "Pindrop est abandonné"
+  version_line: "Pindrop 1.23.0 · Dernière version"
 privacy:
   _self: "Confidentialité"
 share:

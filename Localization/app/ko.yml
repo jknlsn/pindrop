@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop이 작동하려면 몇 가지 권한이 필요합니다.
     귀하의 개인 정보는 항상 존중됩니다.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop이 커서에 텍스트를 삽입하려면 접근성 권한이 필요합니다.                          권한을 부여하려면: 1. 아래의 \"시스템 설정 열기\"를 클릭합니다. 2. + 버튼을 클릭합니다. 3. Finder에 표시된 앱으로 이동합니다. 4. 권한 부여 후 Pindrop을 다시 시작합니다. 이 권한이 없으면 텍스트가 클립보드에만 복사됩니다.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop이 커서에 텍스트를 삽입하려면 접근성 권한이 필요합니다.\n\n권한을 부여하려면:\n1. 아래의 \"시스템 설정 열기\"를 클릭합니다.\n2. + 버튼을 클릭합니다.\n3. Finder에 표시된 앱으로 이동합니다.\n4. 권한 부여 후 Pindrop을 다시 시작합니다. 이 권한이 없으면 텍스트가 클립보드에만 복사됩니다."
   needs_microphone_access_to_record_and_tr: "Pindrop이 음성을 녹음하고 텍스트로 변환하려면 마이크 액세스 권한이 필요합니다.nn시스템 설정에서 권한을 부여하세요."
   on_github: "GitHub의 핀드롭"
   orb: "Pindrop 오브"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "기여해 준 %@님께 감사드립니다 (PR #61)."
 the:
   floating_indicator_is_hidden: "플로팅 표시기가 숨겨져 있습니다."
-  model_failed_to_load_within_60_seconds_this: "\"\" 60초 이내에 모델을 불러오지 못했습니다. 이는 일반적으로 모델 파일이 손상되었거나 호환되지 않음을 의미합니다.                          이 문제를 해결하려면: 1. 설정 → 모델을 엽니다. 2. 문제가 있는 모델을 삭제합니다. 3. 모델을 다시 다운로드합니다. 문제가 지속되면 더 작은 모델(Tiny 또는 Base)을 사용해 보십시오.             \"\""
+  model_failed_to_load_within_60_seconds_this: "60초 이내에 모델을 불러오지 못했습니다. 이는 일반적으로 모델 파일이 손상되었거나 호환되지 않음을 의미합니다.\n\n이 문제를 해결하려면:\n1. 설정 → 모델을 엽니다.\n2. 문제가 있는 모델을 삭제합니다.\n3. 모델을 다시 다운로드합니다. 문제가 지속되면 더 작은 모델(Tiny 또는 Base)을 사용해 보십시오."
   new_nemotron_streaming_engine_shows_words_as: "새로운 Nemotron 스트리밍 엔진은 말하는 즉시 단어를 표시하고, 실행 시 미리 준비되어 첫 받아쓰기가 지연 없이 시작됩니다."
   selected_chunk_variant_isn_t_downloaded_yet: "선택한 청크 변형이 아직 다운로드되지 않았습니다. 전환하면 다운로드가 시작됩니다."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" AI 강화 서비스에 연결할 수 없습니다.                                  다음 사항을 확인하십시오. 1. 인터넷 연결 2. API 끝점 URL이 정확합니다. 3. 서비스가 중단되지 않습니다. 기록이 개선되지 않고 저장되었습니다.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "AI 강화 서비스에 연결할 수 없습니다.\n\n다음 사항을 확인하십시오.\n1. 인터넷 연결\n2. API 끝점 URL이 정확합니다.\n3. 서비스가 중단되지 않습니다. 기록이 개선되지 않고 저장되었습니다."
   to_finish_transcription: "스크립트 작성을 완료할 수 없습니다."
   to_load_history: "기록을 로드할 수 없습니다: %@"
   to_load_models_try_refresh: "모델을 로드할 수 없습니다. 새로고침해 보세요."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "메뉴 모음 → 설정 → 단축키에서 언제든지 변경할 수 있습니다."
   re_all_set: "모든 준비가 완료되었습니다!"
   re_all_set_058a8130: "모든 준비가 완료되었습니다."
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" API 속도 제한 또는 할당량을 초과했습니다.                                  이 문제를 해결하려면: 1. 몇 분 정도 기다렸다가 다시 시도하십시오. 2. API 공급자의 사용 제한을 확인하십시오. 3. API 계획 업그레이드를 고려하십시오. 스크립트가 향상되지 않고 저장되었습니다.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "API 속도 제한 또는 할당량을 초과했습니다.\n\n이 문제를 해결하려면:\n1. 몇 분 정도 기다렸다가 다시 시도하십시오.\n2. API 공급자의 사용 제한을 확인하십시오.\n3. API 계획 업그레이드를 고려하십시오. 스크립트가 향상되지 않고 저장되었습니다."
   re_in_control: "당신이 제어합니다"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" 귀하의 API 키가 유효하지 않거나 만료된 것 같습니다.                                  이 문제를 해결하려면: 1. 설정 → AI 향상을 엽니다. 2. API 키가 올바른지 확인합니다. 3. API 엔드포인트가 올바른지 확인합니다. 전사가 향상 없이 저장되었습니다.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "귀하의 API 키가 유효하지 않거나 만료된 것 같습니다.\n\n이 문제를 해결하려면:\n1. 설정 → AI 향상을 엽니다.\n2. API 키가 올바른지 확인합니다.\n3. API 엔드포인트가 올바른지 확인합니다. 전사가 향상 없이 저장되었습니다."
   floating_indicator_is_now_a_living_audio_re: "이제 플로팅 표시기는 소리에 반응하는 살아 있는 orb입니다. 대기 중에는 숨 쉬고, 말하면 부풀어 오르며, 받아쓰는 동안 단어를 실시간으로 보여줍니다."
   hotkeys_are_ready_to_use_nyou_can_customize: "단축키를 사용할 준비가 되었습니다.n나중에 설정에서 단축키를 맞춤설정할 수 있습니다."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "골짜기"
 whatsnew:
-  footer: "또한: 프롬프트 프리셋이 메뉴 막대로 돌아왔고, 녹음 오브에 새 파형이 추가되었으며, 기존 라이브러리가 다시 안정적으로 열립니다."
-  formatting_body: "Library에 저장된 스크립트를 수정하고 명확한 Edited 표시를 유지하세요."
-  formatting_title: "편집 가능한 스크립트"
-  indicators_body: "각 받아쓰기의 단계별 시간과 AI 토큰 사용량, 그리고 Stats의 평균을 확인하세요."
-  indicators_title: "파이프라인 인사이트"
-  languages_body: "원격 분석은 옵트인하기 전까지 꺼져 있으며, 학습 기여 데이터는 검토·내보내기·삭제를 위해 Mac에 남습니다."
-  languages_title: "개인정보 보호 우선 진단"
-  sensevoice_body: "스트리밍 콜백, 종료, 실시간 UI 업데이트가 이제 순서대로 효율적으로 유지됩니다."
-  sensevoice_title: "더 안정적인 받아쓰기"
-  summary: "비공개 진단, 편집 가능한 기록, 더 깊은 성능 인사이트, 더 안정적인 받아쓰기."
-  version_line: "Pindrop 1.22.0 · 2026년 7월"
+  footer: "justsayso.app에서 Sayso를 다운로드하세요."
+  formatting_body: "이 버전을 계속 사용할 수 있습니다. 전사 내용, 메모, 설정은 Mac에 그대로 남습니다."
+  formatting_title: "Pindrop은 계속 작동합니다"
+  get_sayso: "Sayso 받기"
+  indicators_body: "GitHub의 Pindrop 저장소는 보관 처리되어 읽기 전용입니다."
+  indicators_title: "소스 코드는 계속 공개됩니다"
+  languages_body: "이 버전이 최종 릴리스입니다. Pindrop에는 새 기능, 수정, 지원이 더 이상 제공되지 않습니다."
+  languages_title: "더 이상 업데이트가 없습니다"
+  sensevoice_body: "Sayso는 Pindrop 개발자가 만든 새 받아쓰기 앱입니다. macOS, Windows, Linux에서 실행됩니다. Sayso는 Pindrop의 받아쓰기 기록, 사전, 프롬프트 프리셋을 가져올 수 있습니다."
+  sensevoice_title: "Sayso가 Pindrop을 대체합니다"
+  summary: "Pindrop 1.23.0이 최종 릴리스입니다. Sayso가 그 자리를 대신합니다."
+  title: "Pindrop 개발이 종료되었습니다"
+  version_line: "Pindrop 1.23.0 · 최종 릴리스"
 privacy:
   _self: "개인정보 보호"
 share:

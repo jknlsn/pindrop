@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop memerlukan beberapa kebenaran untuk berfungsi.
     Privasi anda sentiasa dihormati.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop memerlukan kebenaran Kebolehaksesan untuk memasukkan teks pada kursor anda.                          Untuk memberikan kebenaran: 1. Klik \"Buka Tetapan Sistem\" di bawah 2. Klik butang + 3. Navigasi ke apl yang ditunjukkan dalam Finder 4. Mulakan semula Pindrop selepas memberikan kebenaran Tanpa kebenaran ini, teks hanya akan disalin ke papan keratan anda.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop memerlukan kebenaran Kebolehaksesan untuk memasukkan teks pada kursor anda.\n\nUntuk memberikan kebenaran:\n1. Klik \"Buka Tetapan Sistem\" di bawah\n2. Klik butang +\n3. Navigasi ke apl yang ditunjukkan dalam Finder\n4. Mulakan semula Pindrop selepas memberikan kebenaran Tanpa kebenaran ini, teks hanya akan disalin ke papan keratan anda."
   needs_microphone_access_to_record_and_tr: "Pindrop memerlukan akses mikrofon untuk merakam dan menyalin suara anda.nnSila berikan kebenaran dalam Tetapan Sistem."
   on_github: "Pindrop pada GitHub"
   orb: "Orb Pindrop"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Terima kasih kepada %@ atas sumbangan tersebut (PR #61)."
 the:
   floating_indicator_is_hidden: "Penunjuk terapung disembunyikan."
-  model_failed_to_load_within_60_seconds_this: "\"\" Model gagal dimuatkan dalam masa 60 saat. Ini biasanya bermakna fail model rosak atau tidak serasi.                          Untuk membetulkannya: 1. Buka Tetapan → Model 2. Padamkan model yang bermasalah 3. Muat turun semula model Jika masalah berterusan, cuba model yang lebih kecil (Tiny atau Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Model gagal dimuatkan dalam masa 60 saat. Ini biasanya bermakna fail model rosak atau tidak serasi.\n\nUntuk membetulkannya:\n1. Buka Tetapan → Model\n2. Padamkan model yang bermasalah\n3. Muat turun semula model Jika masalah berterusan, cuba model yang lebih kecil (Tiny atau Base)."
   new_nemotron_streaming_engine_shows_words_as: "Enjin penstriman Nemotron baharu memaparkan perkataan semasa anda menyebutnya, dan enjin diprapanaskan semasa pelancaran supaya imlak pertama bermula tanpa lengah."
   selected_chunk_variant_isn_t_downloaded_yet: "Varian bahagian yang dipilih belum dimuat turun lagi. Togol akan memulakan muat turun."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Tidak dapat menyambung ke perkhidmatan peningkatan AI.                                  Sila semak: 1. Sambungan Internet anda 2. URL titik akhir API adalah betul 3. Perkhidmatan tidak mengalami gangguan Transkripsi telah disimpan tanpa penambahan.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Tidak dapat menyambung ke perkhidmatan peningkatan AI.\n\nSila semak:\n1. Sambungan Internet anda\n2. URL titik akhir API adalah betul\n3. Perkhidmatan tidak mengalami gangguan Transkripsi telah disimpan tanpa penambahan."
   to_finish_transcription: "Tidak dapat menyelesaikan transkripsi"
   to_load_history: "Tidak dapat memuatkan sejarah: %@"
   to_load_models_try_refresh: "Tidak dapat memuatkan model. Cuba muat semula."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Anda boleh menukarnya pada bila-bila masa dari bar menu → Tetapan → Hotkeys"
   re_all_set: "Anda Sudah Bersedia!"
   re_all_set_058a8130: "Anda sudah bersedia!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Anda telah melebihi had kadar API atau kuota anda.                                  Untuk membetulkannya: 1. Tunggu beberapa minit dan cuba lagi 2. Semak had penggunaan penyedia API anda 3. Pertimbangkan untuk menaik taraf pelan API anda Transkripsi telah disimpan tanpa peningkatan.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Anda telah melebihi had kadar API atau kuota anda.\n\nUntuk membetulkannya:\n1. Tunggu beberapa minit dan cuba lagi\n2. Semak had penggunaan penyedia API anda\n3. Pertimbangkan untuk menaik taraf pelan API anda Transkripsi telah disimpan tanpa peningkatan."
   re_in_control: "Anda yang mengawal"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" Kunci API anda nampaknya tidak sah atau tamat tempoh.                                  Untuk membetulkannya: 1. Buka Tetapan → Peningkatan AI 2. Sahkan kunci API anda betul 3. Semak sama ada titik akhir API anda betul Transkripsi telah disimpan tanpa peningkatan.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Kunci API anda nampaknya tidak sah atau tamat tempoh.\n\nUntuk membetulkannya:\n1. Buka Tetapan → Peningkatan AI\n2. Sahkan kunci API anda betul\n3. Semak sama ada titik akhir API anda betul Transkripsi telah disimpan tanpa peningkatan."
   floating_indicator_is_now_a_living_audio_re: "Penunjuk terapung anda kini orb hidup yang bertindak balas kepada audio. Ia bernafas ketika melahu, mengembang apabila anda bercakap, dan menstrim perkataan anda secara langsung semasa imlak."
   hotkeys_are_ready_to_use_nyou_can_customize: "Kekunci pintas anda sedia untuk digunakan.nAnda boleh menyesuaikannya kemudian dalam Tetapan."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Takik"
 whatsnew:
-  footer: "Juga: pratetap prompt kembali dalam bar menu, orbs rakaman mempunyai bentuk gelombang baharu, dan pustaka sedia ada dibuka dengan boleh dipercayai semula."
-  formatting_body: "Betulkan transkrip tersimpan dalam Library dan kekalkan penanda Edited yang jelas."
-  formatting_title: "Transkrip boleh sunting"
-  indicators_body: "Lihat masa setiap peringkat dan penggunaan token AI untuk setiap imlak, serta purata dalam Stats."
-  indicators_title: "Cerapan saluran paip"
-  languages_body: "Telemetri kekal dimatikan sehingga anda memilih untuk ikut serta, dan sumbangan latihan kekal pada Mac anda untuk semakan, eksport atau pemadaman."
-  languages_title: "Diagnostik yang mengutamakan privasi"
-  sensevoice_body: "Panggilan balik penstriman, penutupan dan kemas kini UI langsung kini kekal teratur dan cekap."
-  sensevoice_title: "Imlak yang lebih boleh dipercayai"
-  summary: "Diagnostik peribadi, sejarah boleh sunting, cerapan prestasi yang lebih mendalam dan imlak yang lebih boleh dipercayai."
-  version_line: "Pindrop 1.22.0 · Julai 2026"
+  footer: "Muat turun Sayso di justsayso.app."
+  formatting_body: "Anda boleh terus menggunakan versi ini. Transkrip, nota dan tetapan anda kekal pada Mac anda."
+  formatting_title: "Pindrop terus berfungsi"
+  get_sayso: "Dapatkan Sayso"
+  indicators_body: "Repositori Pindrop di GitHub telah diarkibkan dan baca sahaja."
+  indicators_title: "Kod sumber kekal tersedia"
+  languages_body: "Ini ialah keluaran terakhir. Pindrop tidak akan menerima ciri baharu, pembaikan atau sokongan lagi."
+  languages_title: "Tiada lagi kemas kini"
+  sensevoice_body: "Sayso ialah aplikasi imlak baharu daripada pembangun Pindrop. Ia berjalan pada macOS, Windows dan Linux. Sayso boleh mengimport imlak, kamus dan pratetap gesaan anda daripada Pindrop."
+  sensevoice_title: "Sayso menggantikan Pindrop"
+  summary: "Pindrop 1.23.0 ialah keluaran terakhir. Sayso ialah penggantinya."
+  title: "Pindrop telah dihentikan"
+  version_line: "Pindrop 1.23.0 · Keluaran terakhir"
 privacy:
   _self: "Privasi"
 share:

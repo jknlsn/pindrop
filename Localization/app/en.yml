@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop needs a few permissions to work.
     Your privacy is always respected.
-  needs_accessibility_permission_to_insert: "\"\"             Pindrop needs Accessibility permission to insert text at your cursor.                          To grant permission:             1. Click \"Open System Settings\" below             2. Click the + button             3. Navigate to the app shown in Finder             4. Restart Pindrop after granting permission                          Without this permission, text will only be copied to your clipboard.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop needs Accessibility permission to insert text at your cursor.\n\nTo grant permission:\n1. Click \"Open System Settings\" below\n2. Click the + button\n3. Navigate to the app shown in Finder\n4. Restart Pindrop after granting permission\n\nWithout this permission, text will only be copied to your clipboard."
   needs_microphone_access_to_record_and_tr: "Pindrop needs microphone access to record and transcribe your voice.nnPlease grant permission in System Settings."
   on_github: "Pindrop on GitHub"
   orb: "Pindrop Orb"
@@ -1188,7 +1188,7 @@ thanks:
   to_for_the_contribution_pr_61: "Thanks to %@ for the contribution (PR #61)."
 the:
   floating_indicator_is_hidden: "The floating indicator is hidden."
-  model_failed_to_load_within_60_seconds_this: "\"\"             The model failed to load within 60 seconds. This usually means the model files are corrupted or incompatible.                          To fix this:             1. Open Settings → Models             2. Delete the problematic model             3. Re-download the model                          If the problem persists, try a smaller model (Tiny or Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "The model failed to load within 60 seconds. This usually means the model files are corrupted or incompatible.\n\nTo fix this:\n1. Open Settings → Models\n2. Delete the problematic model\n3. Re-download the model\n\nIf the problem persists, try a smaller model (Tiny or Base)."
   new_nemotron_streaming_engine_shows_words_as: "The new Nemotron streaming engine shows words as you say them, and the engine prewarms at launch so your first dictation starts without a delay."
   selected_chunk_variant_isn_t_downloaded_yet: "The selected chunk variant isn't downloaded yet. Toggling will start a download."
 theme:
@@ -1451,7 +1451,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\"                 Unable to connect to the AI enhancement service.                                  Please check:                 1. Your internet connection                 2. The API endpoint URL is correct                 3. The service is not experiencing an outage                                  The transcription was saved without enhancement.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Unable to connect to the AI enhancement service.\n\nPlease check:\n1. Your internet connection\n2. The API endpoint URL is correct\n3. The service is not experiencing an outage\n\nThe transcription was saved without enhancement."
   to_finish_transcription: "Unable to finish transcription"
   to_load_history: "Unable to load history: %@"
   to_load_models_try_refresh: "Unable to load models. Try refresh."
@@ -1537,10 +1537,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "You can change these anytime from the menu bar → Settings → Hotkeys"
   re_all_set: "You're All Set!"
   re_all_set_058a8130: "You're all set!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\"                 You've exceeded your API rate limit or quota.                                  To fix this:                 1. Wait a few minutes and try again                 2. Check your API provider's usage limits                 3. Consider upgrading your API plan                                  The transcription was saved without enhancement.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "You've exceeded your API rate limit or quota.\n\nTo fix this:\n1. Wait a few minutes and try again\n2. Check your API provider's usage limits\n3. Consider upgrading your API plan\n\nThe transcription was saved without enhancement."
   re_in_control: "You're in control"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\"                 Your API key appears to be invalid or expired.                                  To fix this:                 1. Open Settings → AI Enhancement                 2. Verify your API key is correct                 3. Check that your API endpoint is correct                                  The transcription was saved without enhancement.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "Your API key appears to be invalid or expired.\n\nTo fix this:\n1. Open Settings → AI Enhancement\n2. Verify your API key is correct\n3. Check that your API endpoint is correct\n\nThe transcription was saved without enhancement."
   floating_indicator_is_now_a_living_audio_re: "Your floating indicator is now a living, audio-reactive orb. It breathes while idle, swells when you speak, and streams your words live as you dictate."
   hotkeys_are_ready_to_use_nyou_can_customize: "Your hotkeys are ready to use.nYou can customize them later in Settings."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1559,17 +1559,19 @@ bubble:
 notch:
   _self: "Notch"
 whatsnew:
-  footer: "Also: prompt presets are back in the menu bar, the recording orb has a new waveform, and existing libraries open reliably again."
-  formatting_body: "Correct saved transcripts in Library and keep a clear Edited marker."
-  formatting_title: "Editable transcripts"
-  indicators_body: "See per-stage timing and AI token usage for each dictation, plus averages in Stats."
-  indicators_title: "Pipeline insights"
-  languages_body: "Telemetry stays off until you opt in, and training contributions remain on your Mac for review, export, or deletion."
-  languages_title: "Privacy-first diagnostics"
-  sensevoice_body: "Streaming callbacks, shutdown, and live UI updates now stay ordered and efficient."
-  sensevoice_title: "More reliable dictation"
-  summary: "Private diagnostics, editable history, deeper performance insights, and more reliable dictation."
-  version_line: "Pindrop 1.22.0 · July 2026"
+  footer: "Download Sayso at justsayso.app."
+  formatting_body: "You can continue to use this version. Your transcripts, notes, and settings stay on your Mac."
+  formatting_title: "Pindrop keeps working"
+  get_sayso: "Get Sayso"
+  indicators_body: "The Pindrop repository on GitHub is archived and read-only."
+  indicators_title: "The source code stays available"
+  languages_body: "This is the final release. Pindrop gets no new features, fixes, or support after it."
+  languages_title: "No more updates"
+  sensevoice_body: "Sayso is the new dictation app from the developer of Pindrop. It runs on macOS, Windows, and Linux. Sayso can import your Pindrop dictations, dictionary, and prompt presets."
+  sensevoice_title: "Sayso replaces Pindrop"
+  summary: "Pindrop 1.23.0 is the final release. Sayso is its replacement."
+  title: "Pindrop is discontinued"
+  version_line: "Pindrop 1.23.0 · Final release"
 privacy:
   _self: "Privacy"
 share:

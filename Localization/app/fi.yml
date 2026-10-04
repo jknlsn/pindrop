@@ -845,7 +845,7 @@ pindrop:
   needs_a_few_permissions_to_work_your_pri: |-
     Pindrop tarvitsee muutaman käyttöoikeuden toimiakseen.
     Yksityisyyttäsi kunnioitetaan aina.
-  needs_accessibility_permission_to_insert: "\"\" Pindrop tarvitsee esteettömyysoikeuden lisätäkseen tekstiä kohdistimeen.                          Luvan myöntäminen: 1. Napsauta \"Avaa järjestelmäasetukset\" alla. 2. Napsauta +-painiketta 3. Siirry Finderissa näkyvään sovellukseen 4. Käynnistä Pindrop uudelleen luvan myöntämisen jälkeen Ilman tätä lupaa teksti kopioidaan vain leikepöydällesi.             \"\""
+  needs_accessibility_permission_to_insert: "Pindrop tarvitsee esteettömyysoikeuden lisätäkseen tekstiä kohdistimeen.\n\nLuvan myöntäminen:\n1. Napsauta \"Avaa järjestelmäasetukset\" alla.\n2. Napsauta +-painiketta\n3. Siirry Finderissa näkyvään sovellukseen\n4. Käynnistä Pindrop uudelleen luvan myöntämisen jälkeen Ilman tätä lupaa teksti kopioidaan vain leikepöydällesi."
   needs_microphone_access_to_record_and_tr: "Pindrop tarvitsee mikrofonin käyttöoikeuden äänittääkseen ja litteroidakseen äänesi.nnAnna lupa järjestelmäasetuksissa."
   on_github: "Pindrop GitHubissa"
   orb: "Pindrop-pallo"
@@ -1171,7 +1171,7 @@ thanks:
   to_for_the_contribution_pr_61: "Kiitos %@ panoksesta (PR #61)."
 the:
   floating_indicator_is_hidden: "Kelluva ilmaisin on piilotettu."
-  model_failed_to_load_within_60_seconds_this: "\"\" Malli ei latautunut 60 sekunnissa. Tämä tarkoittaa yleensä sitä, että mallitiedostot ovat vioittuneet tai yhteensopimattomia.                          Korjaa tämä seuraavasti: 1. Avaa Asetukset → Mallit 2. Poista ongelmallinen malli 3. Lataa malli uudelleen Jos ongelma jatkuu, kokeile pienempää mallia (Tiny tai Base).             \"\""
+  model_failed_to_load_within_60_seconds_this: "Malli ei latautunut 60 sekunnissa. Tämä tarkoittaa yleensä sitä, että mallitiedostot ovat vioittuneet tai yhteensopimattomia.\n\nKorjaa tämä seuraavasti:\n1. Avaa Asetukset → Mallit\n2. Poista ongelmallinen malli\n3. Lataa malli uudelleen Jos ongelma jatkuu, kokeile pienempää mallia (Tiny tai Base)."
   new_nemotron_streaming_engine_shows_words_as: "Uusi Nemotron-suoratoistomoottori näyttää sanat sitä mukaa kun sanot ne, ja moottori esilämmitetään käynnistyksessä, jotta ensimmäinen sanelu alkaa viiveettä."
   selected_chunk_variant_isn_t_downloaded_yet: "Valittua kappaleversiota ei ole vielä ladattu. Vaihtaminen käynnistää latauksen."
 theme:
@@ -1434,7 +1434,7 @@ u9:
 ukrainian:
   _self: "Ukrainian"
 unable:
-  to_connect_to_the_ai_enhancement_service: "\"\" Ei voida muodostaa yhteyttä AI-parannuspalveluun.                                  Tarkista: 1. Internet-yhteytesi 2. API-päätepisteen URL-osoite on oikea 3. Palvelussa ei ole katkosta Transkriptio tallennettiin ilman parannuksia.                 \"\""
+  to_connect_to_the_ai_enhancement_service: "Ei voida muodostaa yhteyttä AI-parannuspalveluun.\n\nTarkista:\n1. Internet-yhteytesi\n2. API-päätepisteen URL-osoite on oikea\n3. Palvelussa ei ole katkosta Transkriptio tallennettiin ilman parannuksia."
   to_finish_transcription: "Transkriptiota ei voi viimeistellä"
   to_load_history: "Historiaa ei voi ladata: %@"
   to_load_models_try_refresh: "Malleja ei voi ladata. Kokeile päivittää."
@@ -1520,10 +1520,10 @@ you:
   can_change_these_anytime_from_the_menu_bar_s: "Voit muuttaa näitä milloin tahansa valikkoriviltä → Asetukset → Pikanäppäimet"
   re_all_set: "Kaikki on valmista!"
   re_all_set_058a8130: "Kaikki on valmista!"
-  ve_exceeded_your_api_rate_limit_or_quota_to: "\"\" Olet ylittänyt API-nopeusrajoituksen tai -kiintiön.                                  Korjaa tämä seuraavasti: 1. Odota muutama minuutti ja yritä uudelleen 2. Tarkista API-palveluntarjoajasi käyttörajoitukset 3. Harkitse API-suunnitelmasi päivittämistä. Transkriptio tallennettiin ilman parannuksia.                 \"\""
+  ve_exceeded_your_api_rate_limit_or_quota_to: "Olet ylittänyt API-nopeusrajoituksen tai -kiintiön.\n\nKorjaa tämä seuraavasti:\n1. Odota muutama minuutti ja yritä uudelleen\n2. Tarkista API-palveluntarjoajasi käyttörajoitukset\n3. Harkitse API-suunnitelmasi päivittämistä. Transkriptio tallennettiin ilman parannuksia."
   re_in_control: "Sinä hallitset"
 your:
-  api_key_appears_to_be_invalid_or_expired_to: "\"\" API-avaimesi näyttää olevan virheellinen tai vanhentunut.                                  Korjaa tämä seuraavasti: 1. Avaa Asetukset → AI Enhancement 2. Varmista, että API-avaimesi on oikea 3. Tarkista, että API-päätepiste on oikea. Transkriptio tallennettiin ilman parannuksia.                 \"\""
+  api_key_appears_to_be_invalid_or_expired_to: "API-avaimesi näyttää olevan virheellinen tai vanhentunut.\n\nKorjaa tämä seuraavasti:\n1. Avaa Asetukset → AI Enhancement\n2. Varmista, että API-avaimesi on oikea\n3. Tarkista, että API-päätepiste on oikea. Transkriptio tallennettiin ilman parannuksia."
   floating_indicator_is_now_a_living_audio_re: "Kelluva ilmaisimesi on nyt elävä, ääneen reagoiva orb. Se hengittää levossa, kasvaa kun puhut ja näyttää sanasi suorana sanelun aikana."
   hotkeys_are_ready_to_use_nyou_can_customize: "Pikanäppäimet ovat käyttövalmiita.nVoit muokata niitä myöhemmin asetuksissa."
   hotkeys_are_ready_to_use_you_can_customize: |-
@@ -1542,17 +1542,19 @@ bubble:
 notch:
   _self: "Lovi"
 whatsnew:
-  footer: "Lisäksi: kehote-esiasetukset ovat taas valikkopalkissa, tallennuspallolla on uusi aaltomuoto ja olemassa olevat kirjastot avautuvat jälleen luotettavasti."
-  formatting_body: "Korjaa tallennettuja litterointeja Libraryssa ja pidä selkeä Edited-merkintä."
-  formatting_title: "Muokattavat litteroinnit"
-  indicators_body: "Näe vaiheittaiset ajat ja AI-tokenien käyttö jokaisesta sanelusta sekä keskiarvot Statsissa."
-  indicators_title: "Putken näkemykset"
-  languages_body: "Telemetria pysyy pois päältä, kunnes otat sen käyttöön, ja harjoituskontribuutiot pysyvät Macillasi tarkastelua, vientiä tai poistoa varten."
-  languages_title: "Yksityisyys ensin -diagnostiikka"
-  sensevoice_body: "Suoratoistokutsut, sammutus ja live-käyttöliittymäpäivitykset pysyvät nyt järjestyksessä ja tehokkaina."
-  sensevoice_title: "Luotettavampi sanelu"
-  summary: "Yksityinen diagnostiikka, muokattava historia, syvemmät suorituskykytiedot ja luotettavampi sanelu."
-  version_line: "Pindrop 1.22.0 · heinäkuu 2026"
+  footer: "Lataa Sayso osoitteesta justsayso.app."
+  formatting_body: "Voit jatkaa tämän version käyttöä. Litteroinnit, muistiinpanot ja asetukset säilyvät Macissasi."
+  formatting_title: "Pindrop toimii edelleen"
+  get_sayso: "Hanki Sayso"
+  indicators_body: "Pindropin GitHub-repositorio on arkistoitu ja vain luettavissa."
+  indicators_title: "Lähdekoodi pysyy saatavilla"
+  languages_body: "Tämä on viimeinen versio. Pindrop ei saa enää uusia ominaisuuksia, korjauksia eikä tukea."
+  languages_title: "Ei enää päivityksiä"
+  sensevoice_body: "Sayso on Pindropin kehittäjän uusi sanelusovellus. Se toimii macOS:ssä, Windowsissa ja Linuxissa. Sayso voi tuoda Pindropista sanelusi, sanastosi ja kehotepohjasi."
+  sensevoice_title: "Sayso korvaa Pindropin"
+  summary: "Pindrop 1.23.0 on viimeinen versio. Sayso korvaa sen."
+  title: "Pindropin kehitys on päättynyt"
+  version_line: "Pindrop 1.23.0 · Viimeinen versio"
 privacy:
   _self: "Tietosuoja"
 share:
