@@ -70,6 +70,33 @@ final class NoteEditorWindowController: NSObject, NSWindowDelegate {
         presentEditor(note: note, isNewNote: isNewNote)
     }
 
+    /// Opens the editor on a note built outside the editor, such as a Quick Capture result.
+    /// The note is inserted and saved first: the editor reads `persistentModelID`, and a
+    /// model that is not in a context has only a temporary identifier, which traps.
+    func showInsertedNote(title: String, content: String, tags: [String]) {
+        guard let container = modelContainer else {
+            Log.ui.error("ModelContainer not set - cannot show NoteEditorWindow")
+            return
+        }
+
+        let note = NoteSchema.Note(
+            title: title,
+            content: content,
+            tags: tags,
+            sourceTranscriptionID: nil
+        )
+        let context = container.mainContext
+        context.insert(note)
+        do {
+            try context.save()
+        } catch {
+            Log.ui.error("Failed to save captured note before opening the editor: \(error)")
+            return
+        }
+
+        show(note: note, isNewNote: false)
+    }
+
     private func presentEditor(note: NoteSchema.Note?, isNewNote: Bool) {
         guard let container = modelContainer else {
             Log.ui.error("ModelContainer not set - cannot show NoteEditorWindow")

@@ -3218,14 +3218,11 @@ final class AppCoordinator {
     }
 
     private func openNoteEditorWithEnhancedNote(_ enhancedNote: AIEnhancementService.EnhancedNote) {
-        let newNote = NoteSchema.Note(
+        noteEditorWindowController.showInsertedNote(
             title: enhancedNote.title,
             content: enhancedNote.content,
-            tags: enhancedNote.tags,
-            sourceTranscriptionID: nil
+            tags: enhancedNote.tags
         )
-
-        noteEditorWindowController.show(note: newNote, isNewNote: true)
 
         Log.app.info("Opened note editor with enhanced note")
     }
