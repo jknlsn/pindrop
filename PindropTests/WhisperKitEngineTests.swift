@@ -9,6 +9,7 @@
 //  coverage lives in WhisperKitEngineIntegrationTests (PINDROP_RUN_INTEGRATION_TESTS).
 //
 
+import AVFoundation
 import Foundation
 import Testing
 @testable import Pindrop
@@ -260,6 +261,79 @@ struct WhisperKitEngineTests {
         }
     }
 
+    // MARK: - Vocabulary prompt tokens (issue #89)
+
+    /// One token per character, so token counts are easy to predict.
+    private func characterTokens(_ text: String) -> [Int] {
+        text.unicodeScalars.map { Int($0.value) }
+    }
+
+    @Test func vocabularyPromptTokensAreNilWithoutWords() {
+        let noWords = WhisperKitEngine.vocabularyPromptTokens(
+            words: [], sampleCount: 16_000, encode: characterTokens
+        )
+        let blankWords = WhisperKitEngine.vocabularyPromptTokens(
+            words: ["  ", ""], sampleCount: 16_000, encode: characterTokens
+        )
+        let nothingEncodable = WhisperKitEngine.vocabularyPromptTokens(
+            words: ["Pindrop"], sampleCount: 16_000, encode: { _ in [] }
+        )
+
+        #expect(noWords == nil)
+        #expect(blankWords == nil)
+        #expect(nothingEncodable == nil)
+    }
+
+    @Test func vocabularyPromptTokensEncodeTheJoinedPrompt() {
+        let tokens = WhisperKitEngine.vocabularyPromptTokens(
+            words: ["Alpha", "Beta"], sampleCount: 16_000, encode: characterTokens
+        )
+
+        #expect(tokens == characterTokens(" Alpha, Beta"))
+    }
+
+    @Test func vocabularyPromptTokensAreOffForClipsOverOneWindow() {
+        let limit = WhisperKitEngine.maxVocabularyBiasSampleCount
+        #expect(limit == 30 * 16_000)
+
+        let atLimit = WhisperKitEngine.vocabularyPromptTokens(
+            words: ["Alpha"], sampleCount: limit, encode: characterTokens
+        )
+        let overLimit = WhisperKitEngine.vocabularyPromptTokens(
+            words: ["Alpha"], sampleCount: limit + 1, encode: characterTokens
+        )
+
+        #expect(atLimit == characterTokens(" Alpha"))
+        #expect(overLimit == nil)
+    }
+
+    @Test func vocabularyPromptTokensDropTrailingWordsOverTheTokenBudget() {
+        let budget = WhisperKitEngine.maxVocabularyPromptTokens
+        #expect(budget == 223)
+        // 40 words of 11 tokens each, plus separators: well over the budget.
+        let words = (0..<40).map { String(format: "東京都機械学習語彙%02d", $0) }
+
+        let tokens = WhisperKitEngine.vocabularyPromptTokens(
+            words: words, sampleCount: 16_000, encode: characterTokens
+        )
+
+        // 1 + 11n + 2(n - 1) <= 223 gives n = 17 whole words.
+        let expected = characterTokens(" " + words.prefix(17).joined(separator: ", "))
+        #expect(expected.count == 220)
+        #expect(tokens == expected)
+        #expect((tokens?.count ?? 0) <= budget)
+    }
+
+    @Test func vocabularyPromptTokensAreNilWhenOneWordExceedsTheBudget() {
+        let tokens = WhisperKitEngine.vocabularyPromptTokens(
+            words: [String(repeating: "x", count: 300)],
+            sampleCount: 16_000,
+            encode: characterTokens
+        )
+
+        #expect(tokens == nil)
+    }
+
     // MARK: - Language detection mapping
 
     @Test func mapsHindiAndMalayalamWhisperCodesToAppLanguage() {
@@ -294,6 +368,102 @@ struct WhisperKitEngineTests {
     }
 }
 
+// MARK: - Integration (local model) — opt-in only
+
+@MainActor
+@Suite(
+    "WhisperKitEngine (integration, local model)",
+    .enabled(
+        if: ProcessInfo.processInfo.environment["PINDROP_WHISPERKIT_MODEL_PATH"] != nil,
+        "Set PINDROP_WHISPERKIT_MODEL_PATH to exercise a downloaded model."
+    )
+)
+struct WhisperKitEngineLocalModelIntegrationTests {
+    @Test func loadLocalModelSetsReady() async throws {
+        let modelPath = try #require(
+            ProcessInfo.processInfo.environment["PINDROP_WHISPERKIT_MODEL_PATH"]
+        )
+        let engine = WhisperKitEngine()
+
+        try await engine.loadModel(path: modelPath)
+
+        #expect(engine.state == .ready)
+        #expect(engine.error == nil)
+
+        await engine.unloadModel()
+        #expect(engine.state == .unloaded)
+    }
+
+    /// Regression for issue #89: a vocabulary word must never make a WhisperKit
+    /// transcription come back empty. Uses real speech synthesized with `say`.
+    @Test func transcribeWithVocabularyWordsReturnsText() async throws {
+        let modelPath = try #require(
+            ProcessInfo.processInfo.environment["PINDROP_WHISPERKIT_MODEL_PATH"]
+        )
+        let sentence = "The quick brown fox jumps over the lazy dog."
+        let shortClip = try SpeechSynthesisTestSupport.synthesizeSpeech(sentence)
+        // One keyword per sentence, in spoken order, so a lost span is visible.
+        let longSentences: [(text: String, keyword: String)] = [
+            ("I went to the store this morning and bought some apples.", "apples"),
+            ("Then I walked home through the park and called my friend.", "park"),
+            ("We talked about the new project that starts next week.", "project"),
+            ("The weather was cold but the sun was shining brightly.", "weather"),
+            ("After lunch we reviewed the budget for the third quarter.", "budget"),
+            ("My sister is visiting from Chicago for the holidays.", "chicago"),
+            ("The train to the airport leaves every twenty minutes.", "airport"),
+            ("Remember to water the plants and feed the cat tonight.", "plants"),
+            ("The meeting has been moved to Thursday at three o'clock.", "thursday"),
+            ("I finally finished reading that long book about history.", "history"),
+            ("Let's order pizza and watch a movie this evening.", "pizza"),
+            ("The software update fixed most of the problems we reported.", "software"),
+            ("She plays the violin in the city orchestra every weekend.", "orchestra"),
+            ("Thank you for listening, and have a wonderful day.", "wonderful"),
+        ]
+        let longClip = try SpeechSynthesisTestSupport.synthesizeSpeech(
+            longSentences.map(\.text).joined(separator: " ")
+        )
+        try #require(
+            longClip.count / MemoryLayout<Float>.size > WhisperKitEngine.maxVocabularyBiasSampleCount
+        )
+        let vocabularies: [[String]] = [
+            ["Pindrop"],
+            ["Pindrop", "Fenneko", "Kubernetes"],
+            (0..<40).map { "word\($0)" },
+            (0..<40).map { "東京都機械学習\($0)" },
+        ]
+
+        let engine = WhisperKitEngine()
+        try await engine.loadModel(path: modelPath)
+
+        let plainShort = try await engine.transcribe(
+            audioData: shortClip,
+            options: TranscriptionOptions(language: .english)
+        )
+        #expect(plainShort.lowercased().contains("fox"), "Baseline transcript: '\(plainShort)'")
+
+        for vocabulary in vocabularies {
+            let options = TranscriptionOptions(language: .english, vocabularyBiasWords: vocabulary)
+
+            let short = try await engine.transcribe(audioData: shortClip, options: options)
+            #expect(
+                short.lowercased().contains("fox"),
+                "Short clip, \(vocabulary.count) words (\(vocabulary[0])): '\(short)'"
+            )
+
+            // Over one Whisper window the bias is off, so no span may go missing.
+            let long = try await engine.transcribe(audioData: longClip, options: options)
+                .lowercased()
+            let missing = longSentences.map(\.keyword).filter { !long.contains($0) }
+            #expect(
+                missing.isEmpty,
+                "Long clip, \(vocabulary.count) words (\(vocabulary[0])) lost \(missing): '\(long)'"
+            )
+        }
+
+        await engine.unloadModel()
+    }
+}
+
 // MARK: - Integration (network) — opt-in only
 
 /// Real model download / ready-state coverage. Disabled in the Unit plan.
@@ -319,5 +489,43 @@ struct WhisperKitEngineIntegrationTests {
 
         await engine.unloadModel()
         #expect(engine.state == .unloaded)
+    }
+}
+
+// MARK: - Speech synthesis for the opt-in integration tests
+
+/// Real speech for the opt-in integration tests, made with the system `say` tool.
+enum SpeechSynthesisTestSupport {
+    /// 16 kHz mono Float32 samples of `text`, spoken by the system voice.
+    /// `say` commands such as `[[slnc 3000]]` (3 s of silence) are allowed in `text`.
+    static func synthesizeSpeech(_ text: String) throws -> Data {
+        let buffer = try synthesizeSpeechBuffer(text)
+        let channel = try #require(buffer.floatChannelData?[0])
+        return Data(
+            buffer: UnsafeBufferPointer(start: channel, count: Int(buffer.frameLength))
+        )
+    }
+
+    static func synthesizeSpeechBuffer(_ text: String) throws -> AVAudioPCMBuffer {
+        let url = FileManager.default.temporaryDirectory
+            .appendingPathComponent("pindrop-speech-\(UUID().uuidString).wav")
+        defer { try? FileManager.default.removeItem(at: url) }
+
+        let process = Process()
+        process.executableURL = URL(fileURLWithPath: "/usr/bin/say")
+        process.arguments = ["-o", url.path, "--data-format=LEF32@16000", text]
+        try process.run()
+        process.waitUntilExit()
+        try #require(process.terminationStatus == 0, "say failed")
+
+        let file = try AVAudioFile(forReading: url)
+        let buffer = try #require(
+            AVAudioPCMBuffer(
+                pcmFormat: file.processingFormat,
+                frameCapacity: AVAudioFrameCount(file.length)
+            )
+        )
+        try file.read(into: buffer)
+        return buffer
     }
 }
